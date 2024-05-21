@@ -10,9 +10,11 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@nuxt/image": "^1.0.0-rc.1",
+    "@nuxt/image": "^1.1.0",
     "@types/node": "^18",
-    "nuxt": "^3.6.1"
+    "nuxt": "^3.6.1",
+    "nuxt-aos": "^1.2.1",
+    "nuxt3-aos": "^1.0.16"
   },
   "dependencies": {
     "@nuxt/content": "^2.7.0",

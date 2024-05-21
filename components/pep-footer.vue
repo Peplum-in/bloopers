@@ -1,64 +1,92 @@
 <template>
-  <div class="px-6 footer has-background-white pb-4 ">
+  <!-- <PepFooterBento /> -->
 
-    <section class="section mt-6 ">
+  <div class=" footer has-background-white  pt-6 mt-6">
 
-      <div class="columns">
-        <div class="column">
-          <figure class="image">
-            <img class="" src="/bloopers-og.svg" alt="" style="width:240px">
-          </figure>
-          <p class="mt-2"> Copyright ©️ 2023 Bloopers</p>
-          <p> All Rights Reserved.</p>
-          <div class="buttons mt-3">
-            <a class="">
-              <figure class="image is-32x32">
-                <img src="/ui/iconmonstr-instagram.svg" alt="">
-              </figure>
-            </a>
-            <a class="">
-              <figure class="image is-32x32 ml-4">
-                <img src="/ui/iconmonstr-linkedin.svg" alt="">
-              </figure>
-            </a>
+    <!-- <p class="title dela has-text-black">Get a free brand audit</p> -->
+    <section class="section  ">
+      <figure class="image is-hidden-touch" data-aos="zoom-in">
+        <NuxtImg src="/bloopers-black-new.svg" class="container " style="width:350px" alt="" />
+      </figure>
+      <figure class="image is-hidden-desktop" data-aos="zoom-in">
+        <NuxtImg src="/bloopers-black-new.svg" class="container " style="width:250px" alt="" />
+      </figure>
+      <p class="heading has-text-black has-text-centered is-size-6 has-text-grey mt-5" data-aos="fade-up">JAIPUR - INDIA
+      </p>
+
+
+      <div class="section container">
+
+        <div class="is-">
+          <div class=" has-text-centered" data-aos="fade-up">
+
+            <div class="menu-link px-4 is-inline-desktop ">
+
+              <nuxt-link @click="showMobileNav.isOpen = !showMobileNav.isOpen" to='/about'
+                class="is-size-2-desktop is-size-3-touch has-text-black has-text-weight-bold dela ">About</nuxt-link>
+            </div>
+            <div class="menu-link px-4 is-inline-desktop">
+
+              <nuxt-link @click="showMobileNav.isOpen = !showMobileNav.isOpen" to='/work'
+                class="is-size-2-desktop  is-size-3-touch has-text-black has-text-weight-bold dela">Work</nuxt-link>
+            </div>
+            <div class="menu-link px-4 is-inline-desktop">
+
+              <nuxt-link @click="showMobileNav.isOpen = !showMobileNav.isOpen" to='/services'
+                class="is-size-2-desktop is-size-3-touch has-text-black has-text-weight-bold dela">Services</nuxt-link>
+            </div>
+            <div class="menu-link px-4 is-inline-desktop">
+
+              <nuxt-link @click="showMobileNav.isOpen = !showMobileNav.isOpen" to='/contact'
+                class="is-size-2-desktop is-size-3-touch has-text-black  has-text-weight-bold dela">Contact</nuxt-link>
+            </div>
+
+
+
 
           </div>
-
         </div>
-        <div class="column is-size-5">
 
-          <p class="has-text-weight-semibold">Contact Us</p>
-          <p>hello@wearebloopers.com</p>
-          <p>+91-8258964050</p>
-        </div>
-        <div class="column is-size-5">
 
-          <p>Home </p>
-          <p>Work</p>
-          <p>Services </p>
-          <p>About</p>
-          <p>Contact</p>
-        </div>
-      
       </div>
 
+      <p data-aos="zoom-in"
+        class="has-text-weight-semibold is-size-6-desktop is-size-7-touch has-text-grey has-text-centered "> REACH OUT
+        AT </p>
+      <div class="columns mt-4  is-centered is-mobile" data-aos="zoom-in">
+        <div class="column is-4-fullhd is-6-desktop  is-5-tablet is-10-mobile">
+          <div class="columns is-mobile is-centered is-multiline">
 
-      <div class="level mt-6   py-0 is-mobile">
-        <div class="level-left">
+            <a href="https://www.instagram.com/wearebloopers/" target="_blank" class="column is-2-desktop is-4-touch">
+              <div class="box-bloop-bento " style="">
+                <figure class="image is-1by1 ">
 
-          <div class="level-item">
-            <a href="" class="heading has-text-dark">
-
-              Privacy Policy
+                  <NuxtImg src="/contact/instagram.png" class="px-2 py-2 container" alt="" />
+                </figure>
+              </div>
             </a>
-          </div>
-          <div class=" level-item">
-            <a href=" " class="heading has-text-dark">
 
-              TERMS & CONDITIONS
+            <a href="mailto:hello@wearebloopers.com" target="_blank" class="column is-2-desktop is-4-touch">
+              <div class="box-bloop-bento " style="">
+                <figure class="image is-1by1 ">
+
+                  <NuxtImg src="/contact/gmail.png" class="px-2 py-2 container" alt="" />
+                </figure>
+              </div>
             </a>
+            <a href="https://wa.me/+918258964050" target="_blank" class="column is-2-desktop is-4-touch">
+              <div class="box-bloop-bento " style="">
+                <figure class="image is-1by1 ">
+
+                  <NuxtImg src="/contact/call.png" class="px-2 py-2 container" alt="" />
+                </figure>
+              </div>
+            </a>
+
+
           </div>
         </div>
+
       </div>
 
     </section>
@@ -68,7 +96,7 @@
 <script>
 export default {
 }
-</script>
+</script>pt-6
 
 <style>
 /* html{
@@ -77,5 +105,27 @@ export default {
 
 footer a {
   color: white;
+}
+
+.footer-bloop {
+  position: fixed;
+  overflow: hidden;
+  /* bottom: -10rem; */
+  /* top:1rem */
+  /* overflow: hidden; */
+}
+
+.footer-bloop-logo {
+  scale: 1.1;
+  position: relative;
+  bottom: -1rem;
+  filter: invert(100%);
+  /* opacity: 0.5; */
+  overflow: hidden;
+}
+
+.invert {
+  filter: invert(100%);
+
 }
 </style>

@@ -1,119 +1,108 @@
 <template>
     <div>
-        <section class="is-hidden-touch py-0">
-            <div class="columns">
-                <div class=" column has-text-white is-5-desktop ">
-                    <figure class="animate__animated animate__fadeInUp is-hidden-desktop image is-4by5 mb-6">
-                        <img  src="/img/shineshine.jpg" class="has-background-dark" alt="" />
-                    </figure>
-                    <p class="heading">
-                            ABOUT US</p>
-                    <p class=" has-text-white is-size-5-desktop is-size-6-touch">
-                        Meet Shine Bhola, an architect, an academician and a photographer. Graduated as an architect from
-                        MNIT Jaipur and MFA in Photography from NID Ahmedabad and UCA Farnham, United Kingdom in 2010.
-                        <br>
-                        <br>
-                        In 2011, he established Shine Bhola Studios in Jaipur and is living his passion since then.
-                    </p>
-                    <div class="py-6">
-
-                        <p class="heading">
-                            OUR BELIEF</p>
-                        <p class="is-size-5-desktop is-size-6-touch">
-                            The best way to describe his approach: ‘My true passion for photography is in its power to
-                            fascinate and teach new lessons every day! I capture what I feel and feeling is my inner
-                            belief.’ If that’s all you ever know about him, it’s enough to say you know him very, very well
-                            !
-
-
-                        </p>
-
-                        <p class="heading mt-5">
-                            OUR WORK</p>
-                        <p class=" is-size-5-desktop is-size-6-touch ">
-
-                            His work spans from landscape, architecture, portraits, product, fashion and conceptual
-                            photography. And to share his knowledge of perfect frames, he is a faculty at most of the
-                            prestigious colleges of Jaipur, namely, Aayojan School of Architecture, ICG, IICD, MNIT and has
-                            conducted workshop for IIID.
-
-
-                        </p>
-
-                    </div>
-
+        <section class="section ">
+            <div class="columns has-text-centered is-mobile is-centered">
+                <div class="column is-7-desktop is-8-tablet is-12-mobile ">
+                    <h1 data-aos="fade-up" class="title is-size-1-desktop is-size-3-touch pt-6 dela">
+                        We do what we do best. We don't do what we're not good at. <span data-aos="fade-up" class="dela"
+                            data-aos-delay="350">Simple.</span>
+                    </h1>
                 </div>
-                <div class="column is-6 is-offset-1-desktop is-hidden-touch">
-                    <figure class="animate__animated animate__fadeInUp image is-4by5 mt-5 ">
-                        <img  src="/img/shineshine.jpg" class="has-background-dark" alt="" />
-                    </figure>
-                </div>
-                <br>
-
-
             </div>
 
 
-
-
         </section>
-        <section class="is-hidden-desktop section py-0">
-            <div class="columns">
-                <div class="animate__animated animate__fadeIn column has-text-white is-5-desktop ">
-                    <figure class="is-hidden-desktop image is-4by5 mb-6">
-                        <img  src="/img/shineshine.jpg" class="has-background-dark" alt="" />
-                    </figure>
-                    <p class="heading">
-                            ABOUT US</p>
-                    <p class="has-text-white is-size-5-desktop is-size-6-touch">
-                        Meet Shine Bhola, an architect, an academician and a photographer. Graduated as an architect from
-                        MNIT Jaipur and MFA in Photography from NID Ahmedabad and UCA Farnham, United Kingdom in 2010.
+
+        <div class="">
+          
+            <section class="section  ">
+                <div class="columns is-centered is-mobile">
+                    <!-- <div class="column is-4">
+                    </div> -->
+                    <div class="column is-7-desktop is-12-touch">
+                        <p class="has-text-weight-semibold mb-5" data-aos="fade-up">ABOUT US</p>
+                        <h1 class="is-size-4-desktop is-size-5-touch " data-aos="fade-up">
+                            We are a well-managed and aligned team of designers, developers and strategists who turn
+                            good
+                            ideas into even better products. We save the money and time that takes to build your own
+                            team
+                            and accelerate the launch of new projects.
+                            <br>
+                            <br>
+                            We create products that have the potential to change
+                            the world, in a way that increases their chances of success. For small businesses and big
+                            players, established entrepreneurs and fast-growing startups.
+                        </h1>
                         <br>
                         <br>
-                        In 2011, he established Shine Bhola Studios in Jaipur and is living his passion since then.
-                    </p>
-                    <div class="py-6">
+                        <div class="" >
 
-                        <p class="heading">
-                            OUR BELIEF</p>
-                        <p class="is-size-5-desktop is-size-6-touch">
-                            The best way to describe his approach: ‘My true passion for photography is in its power to
-                            fascinate and teach new lessons every day! I capture what I feel and feeling is my inner
-                            belief.’ If that’s all you ever know about him, it’s enough to say you know him very, very well
-                            !
+                            <div class="columns is-vcentered py-6">
+                                <div class="column is-6">
+                                    <figure class=" is-inline-block image has-text-centered" data-aos="zoom-in">
+                                        <img src="/about/team.png" alt="">
+                                    </figure>
+
+                                </div>
+                                <div class="column" data-aos="fade-up">
+                                    <div class="has-text-centered-touch">
+
+                                        <p class="dela title mt-2 is-size-2-desktop is-size-3-touch">Our Team</p>
+                                    </div>
+                                    <br>
+                                    <p class="is-size-4-desktop is-size-5-touch">
+                                        Meet our A-team , baby boomers - millenials, Gen Z. You name it, we have it.
+                                    </p>
+                                    <br>
+                                    <a href="" class="mr-2 is-inline-block">@oneofamind</a>
+                                    <a href="" class="mr-2 is-inline-block">@shailendrax</a>
+                                    <a href="" class="mr-2 is-inline-block">@yashsvisoni</a>
+                                    <a href="" class="mr-2 is-inline-block">@aanchal_jain</a>
+                                    <a href="" class="mr-2 is-inline-block">@highoncarbs</a>
+                                </div>
+                            </div>
+
+                        </div>
 
 
-                        </p>
+                        <hr class="my-6">
+                        <p class="title dela mt-6">Collaborate with us!</p>
+            
+            
+                        <p class="is-size-4-desktop is-size-5-touch " data-aos="fade-up">
+                            We are always looking for brands, influencers, creators, ideators and procastinators
+                            (of-course!) to create and build something exciting. </p>
+                        <br>
+                        <a href="https://instagram.com/weareblooopers" data-aos="fade-up"
+                            class="button button-bloop-new ">DM US at @WEAREBLOOPERS</a>
+                        <div class="columns is-varaible is-8 is-vcentered">
+                            <div class="column">
 
-                        <p class="heading mt-5">
-                            OUR WORK</p>
-                        <p class=" is-size-5-desktop is-size-6-touch ">
-
-                            His work spans from landscape, architecture, portraits, product, fashion and conceptual
-                            photography. And to share his knowledge of perfect frames, he is a faculty at most of the
-                            prestigious colleges of Jaipur, namely, Aayojan School of Architecture, ICG, IICD, MNIT and has
-                            conducted workshop for IIID.
-
-
-                        </p>
-
+                            </div>
+                            <div class="column">
+<!-- 
+                                <figure class="image box-bloop-bento">
+                                    <NuxtImg src="/about/join.webp" alt="" />
+                                </figure> -->
+                            </div>
+                        </div>
                     </div>
-
                 </div>
-                <div class="column is-6 is-offset-1-desktop is-hidden-touch">
-                    <figure class="image animate__animated animate__fadeInUp is-4by5 mt-5 ">
-                        <img  src="/img/shineshine.jpg" class="has-background-dark" alt="" />
-                    </figure>
+
+            </section>
+            <section class="section  ">
+                <div class="columns">
+                    <div class="column is-4">
+                        <!-- <p class="has-text-weight-semibold">SERVICES</p> -->
+                    </div>
+                    <div class="column is-7">
+                    </div>
                 </div>
-                <br>
 
+            </section>
 
-            </div>
-
-
-
-
-        </section>
+        </div>
+        <audit data-aos="fade-up" />
     </div>
 </template>
 
@@ -128,5 +117,9 @@ figure.is-rounded {
 
 .has-background-secondary {
     background-color: #0c0c0c000;
+}
+
+.has-background-yellow-secondary {
+    background-color: #fff00028;
 }
 </style>

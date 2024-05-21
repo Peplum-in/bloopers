@@ -1,0 +1,108 @@
+<div class="section is-hidden-touch">
+
+    <section class="box-bloop-bento-no py-6 px-6" style="background-color: lightyellow; border-color:#ff000050;">
+        <h1 class="title is-size-2-desktop is-size-4-touch dela pr-6">
+            Here's some of the ways we can help you with.
+        </h1>
+        <div class="columns " data-aos="fade-up">
+            <div class="column is-5">
+                <div>
+
+
+                </div>
+
+            </div>
+            <div class="column  p-6">
+                <div class="columns p-3 is-vcentered box-bloop-bento-no ic-clickable"
+                    style="background-color: transparent;">
+                    <div class="column">
+
+                        <h2 class="pt-0 mt-0 has-text-weight-semibold  is-size-3-desktop is-size-5-touch">
+                            Need someone who can help me transform my idea into a
+                            memorable brand
+                        </h2>
+                        <br>
+                        <button class="button-bloop-new">BUILD YOUR IDEA</button>
+                    </div>
+                    <div class="column">
+                        <figure data-aos="fade-left" class="image is-5by3 ">
+                            <NuxtPicture src="/audit/hero.png" alt="" />
+
+                        </figure>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+
+
+    </section>
+</div>
+<div class="section has-background-black">
+    <section class="   ">
+
+        <div class="columns py-6 ">
+            <div class="column is-6-desktop">
+                <!-- <h2 class="subtitle">1 - 2 - 3 </h2> -->
+                <h3 data-aos="fade-up"
+                    class=" title has-text-weight-default dela is-size-1-desktop is-size-3-touch has-text-white">
+                    Here's some of the ways we can help you with.
+                </h3>
+
+            </div>
+        </div>
+        <nuxt-link data-aos="fade-up" to="/pathways/transform" class="columns path-cn pri-border-top">
+            <div class="column is-5">
+                <p class="has-text-weight-semibold has-text-white dela title is-size-2-desktop is-size-4-touch">
+                    1.
+                </p>
+            </div>
+            <div class="column ">
+                <p class="title is-size-2-desktop is-size-4-touch has-text-white">
+                    Need someone who can help me transform my <span class="dela has-text-white">idea</span> into
+                    a
+                    <span class="dela has-text-white">memorable brand</span>
+                </p>
+                <p class="has-text-white is-size-5-desktop is-size-6-touch">Let's help you transform →</p>
+            </div>
+        </nuxt-link>
+        <nuxt-link data-aos="fade-up" to="/pathways/make-a-brand" class="columns pri-border-top">
+            <div class="column is-5">
+                <p class="has-text-weight-semibold  has-text-white dela title is-size-2-desktop is-size-4-touch">
+                    2.
+                </p>
+            </div>
+            <div class="column ">
+                <p class="title is-size-2-desktop is-size-4-touch has-text-white">
+                    I already have a <span class="dela has-text-white">business</span>, but would like to make
+                    it a
+                    <span class="dela has-text-white">Brand</span>.
+                </p>
+                <p class="has-text-white is-size-5-desktop is-size-6-touch">Let's grow →</p>
+
+            </div>
+        </nuxt-link>
+        <nuxt-link data-aos="fade-up" to="/pathways/transform" class="columns pri-border-top">
+            <div class="column is-5">
+                <p class="has-text-weight-semibold has-text-white dela title is-size-2-desktop is-size-4-touch">
+                    3.
+                </p>
+            </div>
+            <div class="column ">
+                <p class="title is-size-2-desktop is-size-4-touch has-text-white">
+                    Oh, I run a <span class="dela has-text-white">brand</span> and would like to <span
+                        class="dela has-text-white">explore the possibilities</span>
+                </p>
+                <p class="has-text-white is-size-5-desktop is-size-6-touch">Let's leave an impact →</p>
+
+
+            </div>
+        </nuxt-link>
+    </section>
+
+</div>
