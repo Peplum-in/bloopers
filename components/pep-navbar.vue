@@ -1,7 +1,7 @@
 <template>
   <div class="">
-    <div :class="{ 'showMegaNav': showMobileNav.isOpen }" data-aos="fade"
-      class="hero section pt-0 px-0   blur-overlay   is-fullheight-with-navbar has-background-yellow" style="z-index:40"
+    <div :class="{ 'showMegaNav': showMobileNav.isOpen }" data-aos="fade" 
+      class="hero section pt-0 px-0   blur-overlay   is-fullheight-with-navbar has-background-yellow" style="z-index:90"
       v-if="showMobileNav.isOpen">
       <div class="hero-header mt-6">
 
@@ -64,8 +64,8 @@
 
 
     <div
-      class="section py-5 mt-4 pb-0 is-flex is-justify-content-center	 is-justify-content-space-between	  navbar-main is-hidden-touch ">
-      <div class="" z-index:99;>
+      class="section py-5 mt-0 pb-0 is-flex is-justify-content-center	 is-justify-content-space-between	  navbar-main is-hidden-touch ">
+      <div class="is-flex is-justify-content-center " z-index:99;>
         <nuxt-link to="/services" class="has-text-black has-text-weight-semibold mr-5   is-size-5 is-clickable ">
 
           Services
@@ -181,7 +181,7 @@ watch(route, value => {
   bottom: 0%;
   left: 0%;
   right: 0%;
-  z-index: -1;
+  z-index: -80;
 }
 
 
@@ -256,7 +256,7 @@ watch(route, value => {
   width: 100vw;
   position: fixed;
   /* Stay in place */
-  z-index: 6;
+  z-index: 90;
   /* Sit on top */
   left: 0;
   top: 0;
@@ -287,7 +287,7 @@ watch(route, value => {
 
 .navbar-main {
   position: relative;
-  z-index: 10 !important;
+  z-index: 96 !important;
 }
 
 .menu {

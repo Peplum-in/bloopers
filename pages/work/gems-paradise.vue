@@ -48,9 +48,8 @@
             </div> -->
         </section>
         <!-- INSTAREEL -->
-        <div class="reel-container-white-bg" data-aos="fade-left">
+        <!-- <div class="reel-container-white-bg" data-aos="fade-left">
             <div class="marquee-img is-hidden-touch">
-                <!-- Repeat the images in this container -->
                 <div class="yellow-img  pb-4 mx-1  is-1by1 " v-for="(row, index) in brands" :key="row.name">
                     <NuxtImg :src="row.image" alt="" class=""></NuxtImg>
 
@@ -67,7 +66,7 @@
 
             </div>
         </div>
-        <br>
+        <br> -->
         <section class="section  ">
             <div class=" container ">
                 <div data-aos="fade-in" class="notification is-hidden-touch  is-white blooper-noti">

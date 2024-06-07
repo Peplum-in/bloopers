@@ -1,11 +1,11 @@
 <template>
     <div>
-        <section class=" section hero pb-0 mb-0" data-aos="zoom-in">
-            <div class="py-6 is-hidden-touch"></div>
-            <!-- <div class="py-4 is-hidden-touch"></div> -->
-            <div class="columns is-mobile is-multiline is-centered is-flex is-vcentered pt-0 mt-0 ">
-                <div class="column is-6-desktop has-text-centered is-12-mobile">
-                    <h1 data-aos="fade-up" data-aos-delay="100" class="title dela is-size-1-desktop is-size-4-touch"
+        <section class="section has-background-yellow-gradient hero is-fullpage-with-navbar">
+
+            <div class="columns  is-variable is-8 mt-1  is-vcentered  ">
+                <div class="column container section is-6-desktop is-12-mobile pr-6">
+                    <h1 data-aos="fade-up" data-aos-delay="100"
+                        class="has-text-centered-touch  title dela is-size-1-desktop is-size-3-touch"
                         style="font-weight: 200!;">
                         People call us an agency, production studio, content creators,
                         nut heads
@@ -13,41 +13,51 @@
 
                     </h1>
 
-                    <div class="columns mx-6 is-vcentered is-centered is-mobile is-variable is-0">
-                        <div class="column is-7-desktop is-12-touch ">
-                            <p style="z-index:999;box-shadow: 0px 1.5px 0px #00000080;"
-                                class="vid-above is-inline-block is-size-7  has-text-weight-black">
-                                We're still reeling a few shots. <br> Till then, please scroll
-                            </p>
-                            <div class="vid-frame">
 
-                                <figure class="video is-16by9 ">
-
-                                    <video id="bgvid" autoplay preload="none" muted="muted" loop="loop">
-                                        <source src="/hero.mp4" type="video/mp4">
-                                    </video>
-                                </figure>
-                            </div>
-                            <!-- <div style="transform: translateY(-12rem);">
-                                
-                                <button data-aos="fade-up" data-aos-delay="150"
-                                class="button disabled button-bloop is-size-4 is-hidden-touch ml-5 mt-6">
-                                PLAY BLOOPERS
-                            </button>
-                            <button data-aos="fade-up" data-aos-delay="150"
-                            class="button disabled button-bloop is-size-6 is-hidden-desktop ml-5 my-3">
-                            PLAY BLOOPERS
-                        </button>
-                    </div> -->
+                </div>
+                <div class="column is-6-desktop">
+                    <div class="hero-grid-container">
+                        <figure class="Hero-Reel video is-16by9" data-aos="zoom-in" data-aos-delay="100">
+                            <video autoplay loop style="border-radius:15px">
+                                <source src="/bloopers-reel.webm" class="" style="border-radius:15px" type="video/mp4">
+                            </video>
+                        </figure>
+                        <div class="Pop">
+                            <figure class="image " data-aos="fade-left" data-aos-delay="120">
+                                <NuxtImg src="/ui/hero-assets/gemspara.png" alt="" />
+                            </figure>
                         </div>
+                        <div class="Pop Pop-alt">
+                            <figure class="image" data-aos="fade-up" data-aos-delay="110">
 
+                                <NuxtImg src="/ui/hero-assets/image_60.png" alt="" />
+                            </figure>
+                        </div>
+                        <div class="pop ">
+
+                            <figure class="image " data-aos="fade-up" data-aos-delay="120">
+                                <NuxtImg src="/ui/hero-assets/Group_299.png" alt="" />
+                            </figure>
+                        </div>
+                        <div class="pop2">
+
+                            <figure class="image" data-aos="fade-up" data-aos-delay="10">
+                                <NuxtImg src="/ui/hero-assets/roas-2.png" alt="" />
+                            </figure>
+                        </div>
+                        <div class="pop3">
+
+                            <figure class="image" data-aos="fade-right" data-aos-delay="130">
+                                <NuxtImg src="/ui/hero-assets/Group_295.png" alt="" />
+                            </figure>
+                        </div>
                     </div>
+
                 </div>
 
             </div>
-
-
         </section>
+
 
         <section class="work-list mt-6 ">
             <!-- <tape/> -->
@@ -792,5 +802,85 @@ const brands = [
     border: 1px solid gray;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     /* padding:2rem; */
+}
+
+.hero-grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". Hero-Reel Hero-Reel pop2"
+        "Pop Hero-Reel Hero-Reel ."
+        ". Hero-Reel Hero-Reel pop3"
+        "pop Hero-Reel Hero-Reel .";
+}
+
+.Hero-Reel {
+    grid-area: Hero-Reel;
+    z-index: 50;
+}
+
+.Pop {
+    grid-area: Pop;
+    /* position: absolute; */
+    /* width: 200px; */
+    transform: translateX(30%) translateY(-30%) rotate(-4deg);
+    z-index: 10;
+}
+
+.Pop-alt {
+    grid-area: Pop;
+    /* position: absolute; */
+    /* width: 200px; */
+    transform: translateX(45%) translateY(-130%) rotate(-4deg) scale(0.4) rotateZ(280deg);
+    z-index: 60;
+}
+
+.pop {
+    grid-area: pop2;
+    /* position: absolute; */
+    /* width: 200px; */
+    transform: translateX(-50%) translateY(30%) rotate(4deg);
+    z-index: 60;
+}
+
+.pop2 {
+    grid-area: pop;
+    /* position: absolute; */
+    /* width: 200px; */
+    transform: translateX(50%) translateY(-30%) rotate(4deg);
+    z-index: 60;
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.pop2 {
+    grid-area: pop;
+    /* position: absolute; */
+    /* width: 200px; */
+    transform: translateX(50%) translateY(-70%) rotate(4deg);
+    z-index: 60;
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+    /* box-shadow: @apply shadow-md;? */
+}
+
+.pop3 {
+
+    grid-area: pop3;
+    /* width: 200px; */
+    transform: translateX(-50%) translateY(-10%) rotate(4deg);
+    z-index: 60;
+}
+
+.has-background-yellow-gradient {
+    background: linear-gradient(to top, lightyellow, transparent), url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill='%23ffffff' fill-opacity='0.9'%3E%3Cpath d='M0 0h100v100H0z'/%3E%3C/g%3E%3C/svg%3E"), radial-gradient(circle at bottom, yellow, transparent);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    /* max-height: 90vh; */
+    /* background: linear-gradient(to top, yellow, transparent); */
+    /* background-image: ur l("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 100 100'><g fill='#ffffff' fill-opacity='0.1'><path d='M0 0h100v100H0z'/></g></svg>"); */
 }
 </style>

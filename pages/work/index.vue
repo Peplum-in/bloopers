@@ -7,8 +7,8 @@
         <div class="columns has-text-centered is-mobile is-centered">
           <div class="column is-7-desktop is-8-tablet is-12-mobile ">
             <h1 data-aos="fade-up" class="title is-size-1-desktop is-size-3-touch pt-6 dela">
-              We do what we do best. We don't do what we're not good at. <span data-aos="fade-up" class="dela"
-                data-aos-delay="350">Simple.</span>
+              We've been blooping since 2019, here's how it has worked out<span data-aos="fade-up" class="dela"
+                data-aos-delay="650">.</span>
             </h1>
             <p class="has-text-weight-semibold is-size-5-desktop is-size-6-touch ">ALL WORKS & PROJECTS</p>
           </div>
