@@ -1,11 +1,11 @@
 <template>
     <div>
-        <section class="section has-background-yellow-gradient hero is-fullpage-with-navbar">
+        <section class="section px-0 has-background-yellow-gradient hero is-fullpage-with-navbar">
 
-            <div class="columns  is-variable is-8 mt-1  is-vcentered  ">
-                <div class="column container section is-6-desktop is-12-mobile pr-6">
+            <div class="columns is-hidden-mobile  is-variable is-8 mt-1  is-vcentered  ">
+                <div class="column container section is-6-desktop is-12-mobile ">
                     <h1 data-aos="fade-up" data-aos-delay="100"
-                        class="has-text-centered-touch  title dela is-size-1-desktop is-size-3-touch"
+                        class="has-text-centered-touch  title dela is-size-1-desktop is-size-4-touch"
                         style="font-weight: 200!;">
                         People call us an agency, production studio, content creators,
                         nut heads
@@ -18,40 +18,95 @@
                 <div class="column is-6-desktop">
                     <div class="hero-grid-container">
                         <figure class="Hero-Reel video is-16by9" data-aos="zoom-in" data-aos-delay="100">
-                            <video autoplay loop style="border-radius:15px">
+                            <video autoPlay muted loop style="border-radius:15px">
                                 <source src="/bloopers-reel.webm" class="" style="border-radius:15px" type="video/mp4">
                             </video>
                         </figure>
                         <div class="Pop">
                             <figure class="image " data-aos="fade-left" data-aos-delay="120">
-                                <NuxtImg src="/ui/hero-assets/gemspara.png" alt="" />
+                                <NuxtPicture placeholder src="/ui/hero-assets/gemspara.png" alt="" />
                             </figure>
                         </div>
                         <div class="Pop Pop-alt">
                             <figure class="image" data-aos="fade-up" data-aos-delay="110">
 
-                                <NuxtImg src="/ui/hero-assets/image_60.png" alt="" />
+                                <NuxtPicture placeholder src="/ui/hero-assets/image_60.png" alt="" />
                             </figure>
                         </div>
                         <div class="pop ">
 
                             <figure class="image " data-aos="fade-up" data-aos-delay="120">
-                                <NuxtImg src="/ui/hero-assets/Group_299.png" alt="" />
+                                <NuxtPicture placeholder src="/ui/hero-assets/Group_299.png" alt="" />
                             </figure>
                         </div>
                         <div class="pop2">
 
                             <figure class="image" data-aos="fade-up" data-aos-delay="10">
-                                <NuxtImg src="/ui/hero-assets/roas-2.png" alt="" />
+                                <NuxtPicture placeholder src="/ui/hero-assets/roas-2.png" alt="" />
                             </figure>
                         </div>
                         <div class="pop3">
 
                             <figure class="image" data-aos="fade-right" data-aos-delay="130">
-                                <NuxtImg src="/ui/hero-assets/Group_295.png" alt="" />
+                                <NuxtPicture placeholder src="/ui/hero-assets/Group_295.png" alt="" />
                             </figure>
                         </div>
                     </div>
+
+                </div>
+
+            </div>
+            <div class="columns is-hidden-tablet is-variable is-8 mt-1  is-vcentered  ">
+
+                <div class="column is-6-desktop">
+                    <div class="hero-grid-container">
+                        <figure class="Hero-Reel video is-16by9" data-aos="zoom-in" data-aos-delay="100">
+                            <video autoPlay muted loop style="border-radius:15px">
+                                <source src="/bloopers-reel.webm" class="" style="border-radius:15px" type="video/mp4">
+                            </video>
+                        </figure>
+                        <div class="Pop">
+                            <figure class="image " data-aos="fade-left" data-aos-delay="120">
+                                <NuxtPicture placeholder src="/ui/hero-assets/gemspara.png" alt="" />
+                            </figure>
+                        </div>
+                        <div class="Pop Pop-alt">
+                            <figure class="image" data-aos="fade-up" data-aos-delay="110">
+
+                                <NuxtPicture placeholder src="/ui/hero-assets/image_60.png" alt="" />
+                            </figure>
+                        </div>
+                        <div class="pop ">
+
+                            <figure class="image " data-aos="fade-up" data-aos-delay="120">
+                                <NuxtPicture placeholder src="/ui/hero-assets/Group_299.png" alt="" />
+                            </figure>
+                        </div>
+                        <div class="pop2">
+
+                            <figure class="image" data-aos="fade-up" data-aos-delay="10">
+                                <NuxtPicture placeholder src="/ui/hero-assets/roas-2.png" alt="" />
+                            </figure>
+                        </div>
+                        <div class="pop3">
+
+                            <figure class="image" data-aos="fade-right" data-aos-delay="130">
+                                <NuxtPicture placeholder src="/ui/hero-assets/Group_295.png" alt="" />
+                            </figure>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="column container section is-6-desktop is-12-mobile ">
+                    <h1 data-aos="fade-up" data-aos-delay="100"
+                        class="has-text-centered-touch  title dela is-size-1-desktop is-size-4-touch"
+                        style="font-weight: 200!;">
+                        People call us a branding agency, creative studio, developers,
+                        nut heads
+                        and literally whatever. As long as we can help. <br>
+
+                    </h1>
+
 
                 </div>
 
@@ -73,7 +128,7 @@
                         <div class="work-card ">
 
                             <figure class="image  is-relative is-5by4" style="overflow:hidden;border-radius: 3px;">
-                                <NuxtPicture class="" sizes="lg:50vw md:50vw sm:100vw" src="/work/gems/4.png"
+                                <NuxtPicture placeholder sizes="lg:50vw md:50vw sm:100vw" src="/work/gems/4.png"
                                     style="z-index:0" alt="" />
                             </figure>
                         </div>
@@ -94,7 +149,7 @@
                         class="column is-clickable  work-card-wrapper  is-4-desktop is-relative" data-aos="zoom-in">
                         <div class="work-card ">
                             <figure class="image is-relative is-5by4" style="overflow:hidden;border-radius: 20px;">
-                                <NuxtPicture class="" sizes="md:50vw sm:100vw" src="/extra/creative.jpg"
+                                <NuxtPicture placeholder sizes="md:50vw sm:100vw" src="/extra/creative.jpg"
                                     style="z-index:0" alt="" />
                             </figure>
 
@@ -111,11 +166,11 @@
 
 
                     </nuxt-link>
-                    <nuxt-link to="/work/anuvas"
+                    <!-- <div 
                         class="column is-clickable  work-card-wrapper  is-4-desktop is-relative" data-aos="zoom-in">
                         <div class="work-card ">
                             <figure class="image is-relative is-5by4" style="overflow:hidden;border-radius: 20px;">
-                                <NuxtPicture class="" sizes="md:50vw sm:100vw" src="/work/do/hero.jpeg"
+                                <NuxtPicture placeholder sizes="md:50vw sm:100vw" src="/work/do/hero.jpeg"
                                     style="z-index:0" alt="" />
                             </figure>
 
@@ -123,7 +178,7 @@
                         <div class="px-4 py-5">
 
                             <p class="   title  dela  is-size-4-desktop  is-size-5-touch has-text-weight-bold">
-                                Daily Objects</p>
+                                </p>
                             <p class="subtitle  is-size-5 is-size-6-touch mb-0 ">Creative direction and styling for
                                 daily accessories </p>
                             <p class="  is-size-6  mt-2 has-text-grey">Creative Shoots, Campaigns
@@ -131,7 +186,7 @@
                         </div>
 
 
-                    </nuxt-link>
+                    </div> -->
 
                 </div>
                 <div class="has-text-centered">
@@ -156,14 +211,14 @@
                 <div class="image-img is-hidden-touch  ml-3 mt-5 my-3" v-for="(row, index) in brands" :key="row.name">
                     <figure class="image is-5by4">
 
-                        <NuxtPicture :src="row.image" alt="" class="" />
+                        <NuxtPicture placeholder :src="row.image" alt="" class="" />
                     </figure>
 
                 </div>
                 <div class="image-img-touch is-hidden-desktop ml-3 mt-3 mb-0" v-for="(row, index) in brands"
                     :key="row.name">
                     <figure class="image is-5by4">
-                        <NuxtPicture :src="row.image" alt="" class="" />
+                        <NuxtPicture placeholder :src="row.image" alt="" class="" />
                     </figure>
 
                 </div>
@@ -173,10 +228,8 @@
 
 
         <br>
-        <!-- <testimonials /> -->
         <audit class="mt-6" />
 
-        <!-- <bookcall /> -->
 
 
     </div>

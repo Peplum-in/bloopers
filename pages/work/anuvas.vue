@@ -20,7 +20,7 @@
                 <div class="column  has-text-centered is-6-desktop is-12-touch ">
 
                     <figure class="image is-5by3">
-                        <NuxtPicture src="/work/anuvas/hero.png" class="container" />
+                        <NuxtPicture placeholder src="/work/anuvas/hero.png"  />
                     </figure>
 
                 </div>
@@ -32,7 +32,7 @@
         <!-- <div class="reel-container-white-bg" data-aos="fade-left">
             <div class="marquee-img is-hidden-touch">
                 <div class="yellow-img  pb-4 mx-1  is-1by1 " v-for="(row, index) in brands" :key="row.name">
-                    <NuxtImg :src="row.image" alt="" class=""></NuxtImg>
+                    <NuxtImg :src="row.image" alt="" class=""></NuxtPicture>
 
                 </div>
 
@@ -62,7 +62,7 @@
                                             <div class="p-2">
 
                                                 <figure class="image is-96x96 is-rounded avatar ">
-                                                    <NuxtPicture src="/work/anuvas/logo.jpg" alt="" />
+                                                    <NuxtPicture placeholder src="/work/anuvas/logo.jpg" alt="" />
                                                 </figure>
                                             </div>
                                             <div class="ml-5">
@@ -148,7 +148,7 @@
                                 data-aos="zoom-in">
                                 <div class="">
                                     <figure class="image is-2by3 ">
-                                        <NuxtPicture src="/work/anuvas/reel_3.jpg" class=" container" alt="" />
+                                        <NuxtPicture placeholder src="/work/anuvas/reel_3.jpg"  alt="" />
                                     </figure>
                                 </div>
                             </div>
@@ -156,7 +156,7 @@
                                 data-aos="zoom-in">
                                 <div class="">
                                     <figure class="image is-2by3 ">
-                                        <NuxtPicture src="/work/anuvas/reel_2.jpg" class=" container" alt="" />
+                                        <NuxtPicture placeholder src="/work/anuvas/reel_2.jpg"  alt="" />
                                     </figure>
 
                                 </div>
@@ -165,7 +165,7 @@
                                 data-aos="zoom-in">
                                 <div class="">
                                     <figure class="image is-2by3 ">
-                                        <NuxtPicture src="/work/anuvas/reel_1.jpg" class=" container" alt="" />
+                                        <NuxtPicture placeholder src="/work/anuvas/reel_1.jpg"  alt="" />
                                     </figure>
                                 </div>
                             </div>
@@ -173,7 +173,7 @@
                                 data-aos="zoom-in">
                                 <div class="">
                                     <figure class="image is-2by3 ">
-                                        <NuxtPicture src="/work/anuvas/extra/reel_6.jpeg" class=" container" alt="" />
+                                        <NuxtPicture placeholder src="/work/anuvas/extra/reel_6.jpeg"  alt="" />
                                     </figure>
                                 </div>
                             </div>
@@ -181,7 +181,7 @@
                                 data-aos="zoom-in">
                                 <div class="">
                                     <figure class="image is-1by1 ">
-                                        <NuxtPicture src="/work/anuvas/gram_2.png" class=" container" alt="" />
+                                        <NuxtPicture placeholder src="/work/anuvas/gram_2.png"  alt="" />
                                     </figure>
                                 </div>
                             </div>
@@ -189,7 +189,7 @@
                                 data-aos="zoom-in">
                                 <div class="">
                                     <figure class="image is-1by1 ">
-                                        <NuxtPicture src="/work/anuvas/gram_1.png" style="object-fit:cover" alt="" />
+                                        <NuxtPicture placeholder src="/work/anuvas/gram_1.png"  alt="" />
                                     </figure>
 
                                 </div>
@@ -221,7 +221,7 @@
                             data-aos="zoom-in is-1by1">
                             <div class="">
                                 <figure class="image  ">
-                                    <NuxtImg src="/work/anuvas/extra/thumb.png" class=" " alt="" />
+                                    <NuxtPicture placeholer src="/work/anuvas/extra/thumb.png" class=" " alt="" />
                                 </figure>
                             </div>
                         </div>
@@ -229,7 +229,7 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-1by1 ">
-                                    <NuxtImg src="/work/anuvas/extra/thumb_2.png" class=" " alt="" />
+                                    <NuxtPicture placeholer src="/work/anuvas/extra/thumb_2.png" class=" " alt="" />
                                 </figure>
 
                             </div>
@@ -238,7 +238,7 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-1by1 ">
-                                    <NuxtImg src="/work/anuvas/extra/thumb_3.png" class=" " alt="" />
+                                    <NuxtPicture placeholer src="/work/anuvas/extra/thumb_3.png" class=" " alt="" />
                                 </figure>
                             </div>
                         </div>
@@ -246,7 +246,7 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-1by1 ">
-                                    <NuxtImg src="/work/anuvas/extra/thumb_4.png" class=" " alt="" />
+                                    <NuxtPicture placeholer src="/work/anuvas/extra/thumb_4.png" class=" " alt="" />
                                 </figure>
                             </div>
                         </div>
@@ -254,7 +254,7 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-2by3 ">
-                                    <NuxtImg src="/work/anuvas/extra/reel_1.jpeg"></NuxtImg>
+                                    <NuxtPicture placeholer src="/work/anuvas/extra/reel_1.jpeg"></NuxtPicture>
                                 </figure>
                             </div>
                         </div>
@@ -262,7 +262,7 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-2by3 ">
-                                    <NuxtImg src="/work/anuvas/extra/reel_2.jpg"></NuxtImg>
+                                    <NuxtPicture placeholer src="/work/anuvas/extra/reel_2.jpg"></NuxtPicture>
                                 </figure>
                             </div>
                         </div>
@@ -270,7 +270,7 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-2by3 ">
-                                    <NuxtImg src="/work/anuvas/extra/reel_3.jpg"></NuxtImg>
+                                    <NuxtPicture placeholer src="/work/anuvas/extra/reel_3.jpg"></NuxtPicture>
                                 </figure>
                             </div>
                         </div>
@@ -278,7 +278,7 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-2by3 ">
-                                    <NuxtImg src="/work/anuvas/extra/reel_5.jpeg"></NuxtImg>
+                                    <NuxtPicture placeholer src="/work/anuvas/extra/reel_5.jpeg"></NuxtPicture>
                                 </figure>
                             </div>
                         </div>
@@ -298,10 +298,10 @@
             <div class="container">
                 <figure class="mb-6 has-background-yellow box box-bloop-bento-no image is-hidden-touch is-3by1"
                     data-aos="zoom-in">
-                    <NuxtImg src="/work/anuvas/cam_banner.png"></NuxtImg>
+                    <NuxtPicture placeholer src="/work/anuvas/cam_banner.png"></NuxtPicture>
                 </figure>
                 <figure class="mb-6 has-background-yellow image is-hidden-desktop is-5by4" data-aos="zoom-in">
-                    <NuxtImg src="/work/anuvas/cam_banner_touch.png"></NuxtImg>
+                    <NuxtPicture placeholer src="/work/anuvas/cam_banner_touch.png"></NuxtPicture>
                 </figure>
 
                 <div class="columns is-variable is-8">

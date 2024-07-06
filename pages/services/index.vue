@@ -28,7 +28,7 @@
                                 <h2 class=" pt-5 px-5  pb-0 title is-size-4-touch is-size-3-desktop ">Branding <br>&
                                     Strategy</h2>
                                 <figure class="image is-1by1 ">
-                                    <NuxtImg src="/work/gems/GP_Posts.jpg" class=" container" alt="" />
+                                    <NuxtPicture placeholder src="/work/gems/GP_Posts.jpg" alt="" />
                                 </figure>
                                 <p class="py-5 px-5 is-size-4-desktop is-size-6-touch">Take your branding to the next
                                     level.
@@ -43,7 +43,7 @@
                                 <h2 class=" pt-5 px-5  pb-0  title is-size-4-touch is-size-3-desktop ">Creative
                                     Direction <br> & Styling</h2>
                                 <figure class="image is-1by1 ">
-                                    <NuxtImg src="/services/bento_2.jpg" class=" container" alt="" />
+                                    <NuxtPicture placeholder src="/services/bento_2.jpg" class="" alt="" />
                                 </figure>
                                 <p class="py-5 px-5 is-size-4-desktop is-size-6-touch">Take your wildest ideas and
                                     transform them into jaw-dropping realities. From concept to execution, we're the
@@ -57,7 +57,7 @@
                                 <h2 class=" pt-5 px-5  pb-0  title is-size-4-touch is-size-3-desktop ">Web Design <br> &
                                     Development</h2>
                                 <figure class="image is-1by1 ">
-                                    <NuxtImg src="/services/web_3.jpg" class=" container" alt="" />
+                                    <NuxtPicture placeholder src="/services/web_3.jpg" class="" alt="" />
                                 </figure>
                                 <p class="py-5 px-5 is-size-4-desktop is-size-6-touch">We blend form and function to
                                     build websites that are not only visually striking but also technically robust.
@@ -71,7 +71,7 @@
                                         <div class="box-bloop-bento py-4 px-4" style="background-color: #5f8e3e50;">
                                             <figure class="image is-1by1">
 
-                                                <NuxtImg src="/services/Shopify_Icon.svg" class="container" alt="" />
+                                                <NuxtPicture placeholder src="/services/Shopify_Icon.svg" alt="" />
                                             </figure>
                                         </div>
 
@@ -80,7 +80,7 @@
                                         <div class="box-bloop-bento py-4 px-4" style="">
                                             <figure class="image is-1by1">
 
-                                                <NuxtImg src="/services/AWS-Logo.svg" class="container" alt="" />
+                                                <NuxtPicture placeholder src="/services/AWS-Logo.svg" alt="" />
                                             </figure>
                                         </div>
                                     </div>
@@ -88,7 +88,7 @@
                                         <div class="box-bloop-bento py-4 px-4" style="">
                                             <figure class="image is-1by1">
 
-                                                <NuxtImg src="/services/digitalocean.png" class="container" alt="" />
+                                                <NuxtPicture placeholder src="/services/digitalocean.png" alt="" />
                                             </figure>
                                         </div>
                                     </div>
@@ -96,7 +96,7 @@
                                         <div class="box-bloop-bento py-4 px-4" style="">
                                             <figure class="image is-1by1">
 
-                                                <NuxtImg src="/services/netlify.png" class="container" alt="" />
+                                                <NuxtPicture placeholder src="/services/netlify.png" alt="" />
                                             </figure>
                                         </div>
                                     </div>
@@ -107,7 +107,7 @@
                                             <div class="">
                                                 <figure class="image">
 
-                                                    <NuxtImg src="/services/arraycase-b.svg"
+                                                    <NuxtPicture placeholder src="/services/arraycase-b.svg"
                                                         style="opacity:0.44;max-width:150px" alt="" />
                                                 </figure>
                                             </div>
@@ -118,7 +118,7 @@
                             </div>
 
                             <figure class="image is-1by1 ">
-                                <NuxtImg src="/services/code.jpg" class=" container" alt="" />
+                                <NuxtPicture placeholder src="/services/code.jpg" class=" " alt="" />
                             </figure>
                             <p class="py-5  px-5 is-size-4-desktop dela is-size-6-touch">⚡ 20+ B2B SaaS applications
                                 built.
@@ -132,37 +132,41 @@
                                 <h2 class=" pt-5 px-5  pb-0  title is-size-4-touch is-size-3-desktop ">Digital &<br>
                                     Performance Marketing</h2>
                                 <figure class="image is-1by1 ">
-                                    <NuxtImg src="/services/marketing.jpg" class=" container" alt="" />
+                                    <NuxtPicture placeholder src="/services/marketing.jpg" class="" alt="" />
                                 </figure>
-                                <p class="py-5 px-5 is-size-4-desktop is-size-6-touch">Results that speak louder than words. Our performance marketing maestros wield the power of data-driven sorcery to unlock your brand's true potential.</p>
+                                <p class="py-5 px-5 is-size-4-desktop is-size-6-touch">Results that speak louder than
+                                    words. Our performance marketing maestros wield the power of data-driven sorcery to
+                                    unlock your brand's true potential.</p>
 
                                 <div class="pb-5 px-5 is-size-4-desktop is-size-6-touch">
                                     <p class="is-size-6 heading mb-2  has-text-grey  ">
                                         Partners with</p>
                                     <div class="columns is-multiline is-mobile">
                                         <div class="column is-2-desktop is-2-touch">
-                                            <div class="" style="background-color: #f0f8ff;">
+                                            <div class="">
                                                 <figure class="image is-1by1">
 
-                                                    <NuxtImg src="/services/meta.png" class="container" alt="" />
+                                                    <NuxtPicture placeholder src="/services/meta.png" class="" alt="" />
                                                 </figure>
                                             </div>
 
                                         </div>
                                         <div class="column is-2-desktop is-2-touch">
-                                            <div class="" style="background-color: #f0f8ff;">
+                                            <div class="">
                                                 <figure class="image is-1by1">
 
-                                                    <NuxtImg src="/services/pinterest.png" class="container" alt="" />
+                                                    <NuxtPicture placeholder src="/services/pinterest.png" class=""
+                                                        alt="" />
                                                 </figure>
                                             </div>
 
                                         </div>
                                         <div class="column is-2-desktop is-2-touch">
-                                            <div class="" style="background-color: #f0f8ff;">
+                                            <div class="">
                                                 <figure class="image is-1by1">
 
-                                                    <NuxtImg src="/services/google.png" class="container" alt="" />
+                                                    <NuxtPicture placeholder src="/services/google.png" class=""
+                                                        alt="" />
                                                 </figure>
                                             </div>
 
@@ -181,8 +185,8 @@
                                     Media
                                     Presence <br>& Management</h2>
                                 <figure class="image is-3by1 ">
-                                    <NuxtImg src="/services/ad.jpg" style="transform: scale(1.2);" class=" container"
-                                        alt="" />
+                                    <NuxtPicture placeholder src="/services/ad.jpg" style="transform: scale(1.2);"
+                                        class=" " alt="" />
                                 </figure>
                                 <p class="py-5 px-5 is-size-4-desktop is-size-6-touch">Our content strategists are the
                                     puppet masters of words and visuals, weaving stories that make hearts skip a beat.
@@ -197,7 +201,7 @@
                                         <div class="" style="background-color: #f0f8ff;">
                                             <figure class="image is-1by1">
 
-                                                <NuxtImg src="/services/meta.png" class="container" alt="" />
+                                                <NuxtPicture placeholder src="/services/meta.png" class="" alt="" />
                                             </figure>
                                         </div>
 
@@ -206,7 +210,8 @@
                                         <div class="" style="background-color: #f0f8ff;">
                                             <figure class="image is-1by1">
 
-                                                <NuxtImg src="/services/pinterest.png" class="container" alt="" />
+                                                <NuxtPicture placeholder src="/services/pinterest.png" class=""
+                                                    alt="" />
                                             </figure>
                                         </div>
 
@@ -215,7 +220,7 @@
                                         <div class="" style="background-color: #f0f8ff;">
                                             <figure class="image is-1by1">
 
-                                                <NuxtImg src="/services/google.png" class="container" alt="" />
+                                                <NuxtPicture placeholder src="/services/google.png" class="" alt="" />
                                             </figure>
                                         </div>
 
@@ -225,37 +230,28 @@
 
                             </div>
                         </NuxtLink>
-                        <NuxtLink to="/services/social_media_presence"
-                            class="cell box is-col-span-1-desktop is-col-span-4-mobile box-bloop-bento  is-col-span-2-tablet">
+                        <NuxtLink to="/services/ugc_influencers_collaborations"
+                            class="cell is-col-span-1-desktop is-col-span-4-mobile box-bloop-bento is-col-span-2-tablet is-row-span-1-tablet  "
+                            data-aos="zoom-in">
                             <div class="">
+                                <h2 class=" pt-5 px-5  pb-0  title is-size-4-touch is-size-3-desktop ">
+                                    UGC, Influencers
+                                    <br>&
+                                    Collaborations
 
-                                <div class="">
-                                    <!-- Header content goes here -->
-                                    <h2 class=" pt-5 px-5  pb-0  title is-size-4-touch is-size-3-desktop ">Influencers
-                                        <br>&
-                                        Collaborations
-                                    </h2>
-                                </div>
+                                </h2>
+                                <figure class="image is-1by1 ">
+                                    <NuxtPicture placeholder src="/services/pr2.png" class="" alt="" />
+                                </figure>
+                                <p class="py-5 px-5 is-size-4-desktop is-size-6-touch"> From captivating campaigns to
+                                    media magic, we'll put your brand in the spotlight
+                                    it deserves. Get ready for the red carpet treatment and let's make headlines
+                                    together! </p>
 
-                                <div>
-                                    <!-- Content goes here -->
-                                    <figure class=" ">
-                                        <NuxtImg src="/services/pr2.png" class=" container" alt="" />
-                                    </figure>
-                                </div>
 
-                                <div>
-                                    <p style="top:auto;bottom: 1rem; "
-                                        class=" py-5 px-5 is-size-4-desktop is-size-6-touch">
-                                        From captivating campaigns to media magic, we'll put your brand in the spotlight
-                                        it deserves. Get ready for the red carpet treatment and let's make headlines
-                                        together! </p>
-                                    <!-- Footer content goes here -->
-                                </div>
                             </div>
-
-
                         </NuxtLink>
+
                     </div>
                 </div>
                 <!--  -->
@@ -283,7 +279,7 @@
                 <div class="columns has-text-centered-touch is-variable is-8 is-vcentered is-multiline ">
                     <div class="column   py-5  is-4 ">
                         <figure class="image  px-6 py-6 is-1by1 container" style="max-width: 350px;">
-                            <NuxtImg src="/gifs/puzzle.gif" class="px-6 py-6 container" alt="" />
+                            <NuxtImg placeholder src="/gifs/puzzle.gif" class="px-6 py-6 container " alt="" />
                         </figure>
                         <h2
                             class="pt-0 mb-2 mt-0 has-text-weight-semibold title is-size-4-desktop is-size-5-touch dela">
@@ -297,7 +293,7 @@
                     <div class="column px-6 py-5  is-4 ">
                         <figure class="image has-text-centered-touch  px-6 py-6 is-1by1 container"
                             style="max-width: 350px;">
-                            <NuxtImg src="/gifs/puzzle-27.gif" class="px-6 py-6 container" alt="" />
+                            <NuxtImg placeholder src="/gifs/puzzle-27.gif" class="px-6 py-6 container" alt="" />
                         </figure>
                         <h2
                             class="pt-0 mb-2 mt-0 has-text-weight-semibold title is-size-4-desktop is-size-5-touch dela">
@@ -309,7 +305,7 @@
                     </div>
                     <div class="column has-text-centered-touch  py-5  is-4 ">
                         <figure class="image  px-6 py-6 is-1by1 container" style="max-width: 350px;">
-                            <NuxtImg src="/gifs/puzzle-34.gif" class="px-6 py-6 container" alt="" />
+                            <NuxtImg placeholder src="/gifs/puzzle-34.gif" class="px-6 py-6 container" alt="" />
                         </figure>
                         <h2
                             class="pt-0 mb-2 mt-0 has-text-weight-semibold title is-size-4-desktop is-size-5-touch dela">
@@ -321,7 +317,7 @@
                     </div>
                     <div class="column has-text-centered-touch  py-5  is-4 ">
                         <figure class="image  px-6 py-6 is-1by1 container" style="max-width: 350px;">
-                            <NuxtImg src="/gifs/puzzle-4.gif" class="px-6 py-6 container" alt="" />
+                            <NuxtImg placeholder src="/gifs/puzzle-4.gif" class="px-6 py-6 container" alt="" />
                         </figure>
 
                         <h2
@@ -333,7 +329,8 @@
                     </div>
                     <div class="column has-text-centered-touch  py-5  is-4 ">
                         <figure class="image  px-6 py-6 is-1by1 container" style="max-width: 350px;">
-                            <NuxtImg src="/gifs/puzzle-come-back-later.gif" class="px-6 py-6 container" alt="" />
+                            <NuxtImg placeholder src="/gifs/puzzle-come-back-later.gif" class="px-6 py-6 container"
+                                alt="" />
                         </figure>
 
                         <h2
@@ -348,7 +345,7 @@
 
                     <div class="column has-text-centered-touch  py-5  is-4 ">
                         <figure class="image  px-6 py-6 is-1by1 container" style="max-width: 350px;">
-                            <NuxtImg src="/gifs/puzzle-18.gif" class="px-6 py-6 container" alt="" />
+                            <NuxtImg placeholder src="/gifs/puzzle-18.gif" class="px-6 py-6 container" alt="" />
                         </figure>
                         <h2
                             class="pt-0 mt-0 mb-2 has-text-weight-semibold title is-size-4-desktop is-size-5-touch dela">
@@ -388,7 +385,7 @@
                             <div style="position: fix; height: 150px;"></div>
                             <div class="mt-6">
                                 <figure class="image is-128x128">
-                                    <NuxtPicture src="/services/blooper-person.png" alt="" />
+                                    <NuxtPicture placeholder src="/services/blooper-person.png" alt="" />
                                 </figure>
                                 <p class="title is-size-2-desktop is-size-4-touch dela">
                                     Have more questions? <br>Book a free discovery call.
@@ -408,7 +405,7 @@
 
                         <p class="is-size-4-desktop is-size-5-touch ">We are.</p> -->
 
-                      
+
                         <div class="mb-6" data-aos="fade-up">
                             <div class="is-offset-5-desktop">
                                 <h2 class="pt-0 mt-0 has-text-weight-semibold is-size-4-desktop is-size-5-touch">

@@ -20,7 +20,7 @@
                 <div class="column  has-text-centered is-6-desktop is-12-touch  ">
 
                     <figure class="image is-5by3">
-                        <img src="/work/gems/hero.png" class="container">
+                        <NuxtPicture placeholder src="/work/gems/hero.png" />
                     </figure>
 
                 </div>
@@ -165,7 +165,7 @@
                                     data-aos="zoom-in">
                                     <div class="">
                                         <figure class="image ">
-                                            <NuxtImg src="/work/gems/branding_GP.png" class=" container" alt="" />
+                                            <NuxtPicture placeholder src="/work/gems/branding_GP.png" alt="" />
                                         </figure>
                                     </div>
                                 </div>
@@ -173,7 +173,7 @@
                                     data-aos="zoom-in">
                                     <div class="">
                                         <figure class="image is-1by1">
-                                            <video src="/work/gems/GP_logo.mp4" class=" container" autoplay controls />
+                                            <video src="/work/gems/GP_logo.mp4" muted autoPlay loop />
                                         </figure>
                                     </div>
                                 </div>
@@ -181,8 +181,7 @@
                                     data-aos="zoom-in">
                                     <div class="">
                                         <figure class="image is-1by1">
-                                            <NuxtImg src="/work/gems/lookbook.jpg" class=" container" autoplay
-                                                preload />
+                                            <NuxtPicture placeholder src="/work/gems/lookbook.jpg" preload />
                                         </figure>
                                     </div>
                                 </div>
@@ -237,7 +236,7 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image  ">
-                                    <NuxtImg src="/work/gems/strategy/1.jpg" class=" " alt="" />
+                                    <NuxtPicture placeholder src="/work/gems/strategy/1.jpg" class=" " alt="" />
                                 </figure>
                             </div>
                         </div>
@@ -245,7 +244,7 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-2by3 ">
-                                    <NuxtImg src="/work/gems/strategy/2.jpg" class=" " alt="" />
+                                    <NuxtPicture placeholder src="/work/gems/strategy/2.jpg" class=" " alt="" />
                                 </figure>
 
                             </div>
@@ -254,7 +253,7 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-2by3 ">
-                                    <NuxtImg src="/work/gems/strategy/3.jpg" class=" " alt="" />
+                                    <NuxtPicture placeholder src="/work/gems/strategy/3.jpg" class=" " alt="" />
                                 </figure>
                             </div>
                         </div>
@@ -262,7 +261,7 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-2by3 ">
-                                    <video src="/work/gems/strategy/reel-web.mp4" loop autoplay class="container" alt=""
+                                    <video src="/work/gems/strategy/reel-web.mp4" loop muted autoPlay alt=""
                                         style="transform: scale(1.05);" />
                                 </figure>
                             </div>
@@ -272,7 +271,7 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-2by3 ">
-                                    <NuxtImg src="/work/gems/strategy/4.jpg" class=" " alt="" />
+                                    <NuxtPicture placeholder src="/work/gems/strategy/4.jpg" class=" " alt="" />
                                 </figure>
                             </div>
                         </div>
@@ -294,7 +293,9 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-2by3 ">
-                                    <NuxtImg src="/work/gems/strategy/5.jpg" class=" " alt="" />
+                                    <NuxtPicture placeholder src="/work/gems/strategy/8.jpg" class=" " alt="" />
+
+                                    <!-- <NuxtPicture placeholder src="/work/gems/strategy/5.jpg" class=" " alt="" /> -->
                                 </figure>
                             </div>
                         </div>
@@ -303,7 +304,7 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-2by3 ">
-                                    <NuxtImg src="/work/gems/strategy/6.jpg" class=" " alt="" />
+                                    <NuxtPicture placeholder src="/work/gems/strategy/6.jpg" class=" " alt="" />
                                 </figure>
                             </div>
                         </div>
@@ -311,7 +312,7 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-2by3 ">
-                                    <NuxtImg src="/work/gems/strategy/7.jpg" class=" " alt="" />
+                                    <NuxtPicture placeholder src="/work/gems/strategy/7.jpg" class=" " alt="" />
                                 </figure>
                             </div>
                         </div>
@@ -319,7 +320,9 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-2by3 ">
-                                    <NuxtImg src="/work/gems/strategy/8.jpg" class=" " alt="" />
+                                    <NuxtPicture placeholder src="/work/gems/strategy/5.jpg" class=" " alt="" />
+
+                                    <!-- <NuxtPicture placeholder src="/work/gems/strategy/8.jpg" class=" " alt="" /> -->
                                 </figure>
                             </div>
                         </div>
@@ -327,7 +330,7 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-2by3 ">
-                                    <video src="/work/gems/strategy/zoom-web.mp4" loop autoplay class="container" alt=""
+                                    <video src="/work/gems/strategy/zoom-web.mp4" loop autoPlay muted alt=""
                                         style="transform: scale(1.05);" />
                                 </figure>
                             </div>
@@ -361,7 +364,7 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-1by1 ">
-                                    <NuxtImg src="/work/gems/social/social-em.jpg" class=" " alt="" />
+                                    <NuxtPicture placeholder src="/work/gems/social/social-em.jpg" class=" " alt="" />
                                 </figure>
                             </div>
                         </div>
@@ -369,7 +372,7 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-1by1 ">
-                                    <NuxtImg src="/work/gems/social/social-eng.png" class=" " alt="" />
+                                    <NuxtPicture placeholder src="/work/gems/social/social-eng.png" class=" " alt="" />
                                 </figure>
                             </div>
                         </div>
@@ -377,7 +380,7 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-1by1 ">
-                                    <NuxtImg src="/work/gems/social/social-hand.png" class=" " alt="" />
+                                    <NuxtPicture placeholder src="/work/gems/social/social-hand.png" class=" " alt="" />
                                 </figure>
                             </div>
                         </div>
@@ -385,25 +388,16 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-1by1 ">
-                                    <NuxtImg src="/work/gems/social/social-gems.png" class=" " alt="" />
+                                    <NuxtPicture placeholder src="/work/gems/social/social-gems.png" class=" " alt="" />
                                 </figure>
                             </div>
                         </div>
 
-                        <div class="cell is-col-span-1-desktop is-row-span-1-desktop is-col-span-2-mobile   box-bloop-bento"
+                        <!-- <div class="cell is-col-span-1-desktop is-row-span-1-desktop is-col-span-2-mobile   box-bloop-bento"
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-9by16 ">
-                                    <video src="/work/gems/social/reels/3.mp4" class=" container" muted autoplay loop />
-
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="cell is-col-span-1-desktop is-row-span-1-desktop is-col-span-2-mobile   box-bloop-bento"
-                            data-aos="zoom-in">
-                            <div class="">
-                                <figure class="image is-9by16 ">
-                                    <video src="/work/gems/social/reels/2.mp4" class=" container" autoplay muted loop />
+                                    <video src="/work/gems/social/reels/3.mp4" muted autoPlay loop />
 
                                 </figure>
                             </div>
@@ -412,7 +406,7 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-9by16 ">
-                                    <video src="/work/gems/social/reels/4.mp4" class=" container" autoplay muted loop />
+                                    <video src="/work/gems/social/reels/2.mp4" autoPlay muted loop />
 
                                 </figure>
                             </div>
@@ -421,7 +415,16 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-9by16 ">
-                                    <video src="/work/gems/social/reels/5.mp4" class=" container" autoplay muted loop />
+                                    <video src="/work/gems/social/reels/4.mp4" autoPlay muted loop />
+
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="cell is-col-span-1-desktop is-row-span-1-desktop is-col-span-2-mobile   box-bloop-bento"
+                            data-aos="zoom-in">
+                            <div class="">
+                                <figure class="image is-9by16 ">
+                                    <video src="/work/gems/social/reels/5.mp4" autoPlay muted loop />
 
                                 </figure>
                             </div>
@@ -432,7 +435,11 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-9by16 ">
-                                    <video src="/work/gems/social/reels/6.mp4" class=" container" autoplay muted loop />
+                                    <video autoPlay muted loop>
+
+
+                                        <source src="/work/gems/social/reels/6.mp4" type="video/mp4">
+                                    </video>
 
                                 </figure>
                             </div>
@@ -441,7 +448,13 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-9by16 ">
-                                    <video src="/work/gems/social/reels/1.mp4" class=" container" autoplay muted loop />
+                                    <video autoPlay muted loop>
+
+
+                                        <source src="/work/gems/social/reels/1.mp4" type="video/mp4">
+                                    </video>
+
+
 
                                 </figure>
                             </div>
@@ -467,12 +480,12 @@
                                         40% increase</span> in followers. 🤌
                                 </p>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="cell is-col-span-1-desktop is-row-span-1-desktop is-col-span-2-mobile   box-bloop-bento"
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-1by1 ">
-                                    <NuxtImg src="/work/gems/social/social-haar.png" class=" " alt="" />
+                                    <NuxtPicture placeholder src="/work/gems/social/social-haar.png" class=" " alt="" />
                                 </figure>
                             </div>
                         </div>
@@ -480,7 +493,8 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-1by1 ">
-                                    <NuxtImg src="/work/gems/social/social-haar-2.png" class=" " alt="" />
+                                    <NuxtPicture placeholder src="/work/gems/social/social-haar-2.png" class=" "
+                                        alt="" />
                                 </figure>
                             </div>
                         </div>
@@ -488,7 +502,7 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-1by1 ">
-                                    <NuxtImg src="/work/gems/social/social-sap.jpeg" class=" " alt="" />
+                                    <NuxtPicture placeholder src="/work/gems/social/social-sap.jpeg" class=" " alt="" />
                                 </figure>
                             </div>
                         </div>
@@ -496,7 +510,8 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-1by1 ">
-                                    <NuxtImg src="/work/gems/social/social-jaipur.jpg" class=" " alt="" />
+                                    <NuxtPicture placeholder src="/work/gems/social/social-jaipur.jpg" class=" "
+                                        alt="" />
                                 </figure>
                             </div>
                         </div>

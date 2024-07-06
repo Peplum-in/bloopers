@@ -107,23 +107,23 @@ const data_images = [
     'client': 'Kameez by Pooja',
     'work': 'Creative shoot',
   },
-  {
-    'image': '/creative/re/11.jpg',
-    'client': 'VedTech',
-    'work': 'Creative shoot',
+  // {
+  //   'image': '/creative/re/11.jpg',
+  //   'client': 'VedTech',
+  //   'work': 'Creative shoot',
 
-  },
-  {
-    'image': '/creative/re/12.jpg',
-    'client': 'VedTech',
-    'work': 'Creative shoot',
+  // },
+  // {
+  //   'image': '/creative/re/12.jpg',
+  //   'client': 'VedTech',
+  //   'work': 'Creative shoot',
 
-  },
-  {
-    'image': '/creative/re/13.jpg',
-    'client': 'VedTech',
-    'work': 'Creative shoot',
-  },
+  // },
+  // {
+  //   'image': '/creative/re/13.jpg',
+  //   'client': 'VedTech',
+  //   'work': 'Creative shoot',
+  // },
 
   {
     'image': '/creative/re/16.jpg',

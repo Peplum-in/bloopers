@@ -10,16 +10,10 @@
                         </p>
                         <br>
                         <figure class="image is-hidden-touch" data-aos="fade-up">
-                            <NuxtImg src="/bloopers-black-new.svg" class="" style="width:350px"
+                            <NuxtImg format="webp" src="/bloopers-black-new.svg" class="" style="width:350px"
                                 alt="" />
                         </figure>
-                        <!-- <figure cla <figure class="image is-1by1 ">
-                            <NuxtImg src="/work/gems/GP_Posts.jpg" class=" container" alt="" />
-                        </figure>
-                        <p class="py-5 px-5 is-size-4-desktop is-size-6-touch">Take your branding to the next
-                            level.
-                            With
-                            strategies that will help your brand scale. </p> -->
+                      
                     </div>
                 </div>
 

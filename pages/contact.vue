@@ -31,12 +31,12 @@
                         <div class="column is-4-desktop is-10-mobile">
 
                             <div class="columns is-6-desktop is-mobile is-multiline is-size-10-touch">
-    
-    
+
+
                                 <a href="https://www.instagram.com/wearebloopers/" target="_blank" class="column is-4">
                                     <div class="box-bloop-bento " style="">
                                         <figure class="image is-1by1 ">
-    
+
                                             <NuxtImg src="/contact/instagram.png" class="px-2 py-2 container" alt="" />
                                         </figure>
                                     </div>
@@ -45,16 +45,16 @@
                                     class="column is-4">
                                     <div class="box-bloop-bento " style="">
                                         <figure class="image is-1by1 ">
-    
+
                                             <NuxtImg src="/contact/linkedin.png" class="px-2 py-2 container" alt="" />
                                         </figure>
                                     </div>
                                 </a>
-    
+
                                 <a href="mailto:hello@wearebloopers.com" target="_blank" class="column is-4">
                                     <div class="box-bloop-bento " style="">
                                         <figure class="image is-1by1 ">
-    
+
                                             <NuxtImg src="/contact/gmail.png" class="px-2 py-2 container" alt="" />
                                         </figure>
                                     </div>
@@ -62,13 +62,13 @@
                                 <a href="https://www.instagram.com/wearebloopers/" target="_blank" class="column is-4">
                                     <div class="box-bloop-bento " style="">
                                         <figure class="image is-1by1 ">
-    
+
                                             <NuxtImg src="/contact/call.png" class="px-2 py-2 container" alt="" />
                                         </figure>
                                     </div>
                                 </a>
-    
-    
+
+
                             </div>
                         </div>
                         <!-- <div class="columns is-mobile is-multiline">
@@ -117,34 +117,46 @@
 
                     </div>
                     <div class="column is-5-desktop is-12-touch is-offset-2-desktop">
-                        <div class="">
+                        <form name="gform" class="" v-if="sent">
                             <div class="">
 
                                 <p class="heading is-size-5 has-text-weight-semibold dela">Name</p>
-                                <input type="text" placeholder="Please enter your name" class="is-size-5 bloop-input">
+                                <input name="name" type="text" placeholder="Please enter your name"
+                                    class="is-size-5 bloop-input">
                             </div>
                             <div class="mt-6">
 
                                 <p class="heading is-size-5 has-text-weight-semibold dela">Email*</p>
 
-                                <input type="email" placeholder="Please enter your e-mail"
+                                <input name="email" type="email" placeholder="Please enter your e-mail"
                                     class=" is-size-5 bloop-input">
                             </div>
                             <div class="mt-6">
 
                                 <p class="heading is-size-5 has-text-weight-semibold dela">Whatsapp/Contact No.</p>
-                                <input type="text" placeholder="Please enter your contact number"
+                                <input name="contact" type="text" placeholder="Please enter your contact number"
                                     class="is-size-5 bloop-input">
                             </div>
                             <div class="mt-6">
 
                                 <p class="heading is-size-5 has-text-weight-semibold dela">Project Brief</p>
-                                <input type="textarea" placeholder="Please enter your requirements"
+                                <input name="message" type="textarea" placeholder="Please enter your requirements"
                                     class=" is-size-5 bloop-input">
                             </div>
 
-                            <button class="mt-6 button button-bloop-new">
+                            <button @click.prevent="myHandler()" class="mt-6 button button-bloop-new">
                                 SUBMIT </button>
+                        </form>
+                        <div v-else class="">
+                            <figure class="image container" data-aos="zoom-in" style="width: 100px;">
+                                <NuxtImg src="/ui/confetti.png" class=" container" alt="" />
+                            </figure>
+                            <p class="title has-text-centered mt-3" data-aos="fade-in">We've received your message. <br>
+                                we'll reach out to you shortly.
+                                <br>
+                                <br>
+                                Psst. <br> We are always up for a chai meet!
+                            </p>
                         </div>
 
 
@@ -181,40 +193,62 @@
                     </div>
                     <br>
                     <div class="column is-5-desktop is-12-touch is-offset-2-desktop">
-                        <div class="">
+                    
+                        <form name="gform" class="" v-if="!sent">
                             <div class="">
 
                                 <p class="heading is-size-5 has-text-weight-semibold dela">Name</p>
-                                <input type="text" placeholder="Please enter your name" class="is-size-5 bloop-input">
+                                <input name="name" type="text" v-model="form.name" placeholder="Please enter your name"
+                                    class="is-size-5 bloop-input">
                             </div>
                             <div class="mt-6">
 
                                 <p class="heading is-size-5 has-text-weight-semibold dela">Email*</p>
 
-                                <input type="email" placeholder="Please enter your e-mail"
-                                    class=" is-size-5 bloop-input">
+                                <input name="email" type="email" v-model="form.email"
+                                    placeholder="Please enter your e-mail" class=" is-size-5 bloop-input">
                             </div>
                             <div class="mt-6">
 
                                 <p class="heading is-size-5 has-text-weight-semibold dela">Whatsapp/Contact No.</p>
-                                <input type="text" placeholder="Please enter your contact number"
-                                    class="is-size-5 bloop-input">
+                                <input name="contact" type="text" v-model="form.contact"
+                                    placeholder="Please enter your contact number" class="is-size-5 bloop-input">
                             </div>
                             <div class="mt-6">
 
                                 <p class="heading is-size-5 has-text-weight-semibold dela">Project Brief</p>
-                                <input type="textarea" placeholder="Please enter your requirements"
-                                    class=" is-size-5 bloop-input">
+                                <input name="message" type="textarea" v-model="form.message"
+                                    placeholder="Please enter your requirements" class=" is-size-5 bloop-input">
                             </div>
 
-                            <button class="mt-6 button button-bloop-new">
-                                SUBMIT </button>
+                            <button v-if="!sending" @click.prevent="myHandler()" class="mt-6 button button-bloop-new">
+                                SUBMIT </button> 
+                            <button v-if="sending" @click.prevent="myHandler()" class="mt-6 button button-bloop-new">
+                                PLEASE WAIT ... </button> 
+
+                        </form>
+
+                        <div v-else class="" data-aos="fade-in">
+                            <!-- <hr class="has-background-dark"> -->
+
+                            <figure class="image " data-aos="zoom-in" style="width: 100px;">
+                                <NuxtImg src="/ui/confetti.png" class=" container" alt="" />
+                            </figure>
+                            <p class=" is-size-5-touch   mt-3" data-aos="fade-in">We've
+                                received your message. <br>
+                                we'll reach out to you shortly.
+                                <br>
+                                <strong>
+                                Psst.
+                                </strong>
+                                 We are always up for a chai meet!
+                            </p>
                         </div>
-
-
-
                     </div>
-                   
+
+
+
+
 
 
                 </div>
@@ -228,24 +262,59 @@
     </div>
 </template>
 
-<script setup>
+<script>
 
-// const form = ref({
-//     'req': {
-//         'social': false,
-//         'website': false,
-//         'branding': false,
-//         'creative': false,
-//         'strategy': false,
-//         'marketing': false,
-//         'application': false,
-//     }
-// })
-// function sendMessage() {
-//     // Gmail - Spreadsheet integration
-// }
+export default {
+    data() {
+        return {
+            sent: false,
+            sending: false,
+            errors: {},
+            form: {
+                name: null,
+                contact: null,
+                email: null,
+                message: null,
+                honey: null,
+            },
+        };
+    },
+    methods: {
+        myHandler() {
+            var url =
+                "https://script.google.com/macros/s/AKfycbwnXguG0Z46Zt9m6G9AxNWoJaJd7kiq5Xt_-FcdsHmQ24J0NKs7siOi0LgTyQ4gp3djVQ/exec"// Check Data
+            this.errors = {};
+            Object.keys(this.form).forEach((item) => {
+                if (!this.form[item]) {
+                    if (item != "honey") {
+                        this.errors[item] = true;
+                    }
+                }
+                return this.form[item];
+            });
+            let check = Object.keys(this.form).every((item) => {
+                if (item != "honey") {
+                    return this.form[item];
+                } else {
+                    return true;
+                }
+            });
+            if (check) {
+                const form = document.forms["gform"];
+                var sendingData = new FormData(form);
+                this.sending = true;
+                fetch(url, { method: "POST", body: sendingData })
+                    .then((response) => {
+                        this.sent = true;
+                        this.sending = false;
+                    })
+                    .catch((error) => console.error("Error!", error.message));
+            }
+        },
+    },
+
+}
 </script>
-
 <style>
 .bloop-sec {
     transition: 0.3s all ease-in;
