@@ -56,21 +56,20 @@
 
 
           </nuxt-link>
-          <nuxt-link to="/work/anuvas" class="column is-clickable  work-card-wrapper  is-4-desktop is-relative"
+          <nuxt-link to="/services" class="column is-clickable  work-card-wrapper  is-4-desktop is-relative"
             data-aos="zoom-in">
             <div class="work-card ">
-              <figure class="image is-relative is-5by4" style="overflow:hidden;border-radius: 20px;">
-                <NuxtPicture class="" src="/work/do/hero.jpeg" style="z-index:0" alt="" />
+              <figure class="image is-relative is-5by4 " style="overflow:hidden;border-radius: 20px;">
+                <!-- <NuxtPicture class=""  style="z-index:0" alt="" /> -->
               </figure>
 
             </div>
             <div class="px-4 py-5">
 
               <p class="   title  dela  is-size-4-desktop  is-size-5-touch has-text-weight-bold">
-                Daily Objects</p>
-              <p class="subtitle  is-size-5 is-size-6-touch mb-0 ">Creative direction and stlying for
-                daily accessories </p>
-              <p class="  is-size-6  mt-2 has-text-grey">Creative Shoots, Campaigns
+                More coming soon.</p>
+              <p class="subtitle  is-size-5 is-size-6-touch mb-0 ">... </p>
+              <p class="  is-size-6  mt-2 has-text-grey">
               </p>
             </div>
 

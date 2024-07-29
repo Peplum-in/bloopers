@@ -361,6 +361,27 @@ a.tag:hover {
   letter-spacing: calc(0.07em);
 
 }
+.button-bloop-new-rounded {
+  /* border: 1px solid #dbdbdb; */
+  color: #0a0a0a;
+  border: 3px solid #948a0031;
+  background-color: #fff000;
+  /* border-radius: 10px !important; */
+  font-weight: 800 !important;
+  font-family: 'Outfit' !important;
+  padding: 1rem !important;
+  border-radius: 100%;
+  transition: all 0.1s ease-in;
+  letter-spacing: calc(0.07em);
+  /* opacity:0.; */
+}
+.button-bloop-new-rounded:hover {
+  border: 3px solid #47430031;
+  background-color: #ffee0048;
+  /* opacity:0.6; */
+  /* box-shadow: 0 1px 1px 1px rgba(199, 174, 174, 0.5); */
+}
+
 
 .button-bloop-new:hover {
   border: 1px solid #cec000;
@@ -415,7 +436,8 @@ figure.is-rounded {
   border-radius: 25px;
   border: 1px solid #dbdbdb;
   padding: 0rem;
-  transition: all 0.2s ease-in;
+  scale: 1;
+  transition: all 0.3s ease-in;
 }
 
 .box-bloop-bento-row {
@@ -473,6 +495,20 @@ figure.is-rounded {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
   border: 1px solid #c9c9c9;
+}
+.box-bloop-bento img{
+  scale:1 !important;
+  transition: all 0.2s ease-in;
+  border-radius: 10px;; 
+  /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid #c9c9c9; */
+}
+.box-bloop-bento:hover img{
+  scale:0.95 !important; 
+  /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid #c9c9c9; */
 }
 
 

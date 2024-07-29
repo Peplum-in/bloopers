@@ -173,7 +173,7 @@
                                     data-aos="zoom-in">
                                     <div class="">
                                         <figure class="image is-1by1">
-                                            <video src="/work/gems/GP_logo.mp4" muted autoPlay loop />
+                                            <video src="/work/gems/GP_logo.mp4" muted playsinline autoPlay loop />
                                         </figure>
                                     </div>
                                 </div>
@@ -261,7 +261,7 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-2by3 ">
-                                    <video src="/work/gems/strategy/reel-web.mp4" loop muted autoPlay alt=""
+                                    <video src="/work/gems/strategy/reel-web.mp4" loop playsinline muted autoPlay alt=""
                                         style="transform: scale(1.05);" />
                                 </figure>
                             </div>
@@ -330,7 +330,7 @@
                             data-aos="zoom-in">
                             <div class="">
                                 <figure class="image is-2by3 ">
-                                    <video src="/work/gems/strategy/zoom-web.mp4" loop autoPlay muted alt=""
+                                    <video src="/work/gems/strategy/zoom-web.mp4" loop playsinline autoPlay muted alt=""
                                         style="transform: scale(1.05);" />
                                 </figure>
                             </div>

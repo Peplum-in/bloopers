@@ -70,14 +70,10 @@
                     </div>
                     <div class="column is-7">
                         <p data-aos="fade-up" class="has-text-weight-semibold is-size-5-desktop is-size-6-touch mb-2">
-                            We've summarised this
-                            with AI, as she wrote a
-                            long text :D</p>
+                            Summarised with AI</p>
 
-                        <p data-aos="fade-up" class=" is-size-4-desktop is-size5-touch">
-                            "Amatri from Bloopers was more than a professional; she was a friend who understood and
-                            cared
-                            for Anuvas. Her creativity made our brand shine."
+                        <p data-aos="fade-up" class=" is-size-4-desktop is-size-5-touch">
+                            "I have referred Bloopers to anyone who asks for an all rounder creative powerhouse. I’ve always felt we were more than just a client, but true partners."
                         </p>
 
                     </div>

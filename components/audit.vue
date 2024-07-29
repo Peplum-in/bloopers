@@ -7,7 +7,7 @@
 
       <div class="columns is-variable is-multiline is-8 is-vcentered ">
 
-        <div class="column is-4-desktop is-offset-1-desktop ">
+        <div class="column is-4-desktop is-offset-1-desktop has-text-centered-touch ">
           <p data-aos="fade-right"
             class="title  is-size-2-desktop is-hidden-touch is-size-4-touch has-text-weight-bold dela">We'd love to talk
             more about your idea ↯</p>

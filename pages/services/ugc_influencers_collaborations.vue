@@ -21,23 +21,17 @@
     </section>
     <section id="work-list " class="section mb-0 pb-0">
 
-      <div class="columns is-variable is-0 mb-0 is-multiline">
-        <div v-for="(row, index) in data_images" :key="index" class="column     is-4-desktop is-relative"
+      <div class="columns is-mobile is-variable is-1 mb-0 is-multiline is-grouped">
+        <div v-for="(row, index) in 20" :key="index" class="column is-3-desktop is-6-touch is-relative"
           data-aos="zoom-in" :class="row.col">
-          <div class="box-bloop-bento ">
+          <figure class="image has-background-grey-light is-9by16" style="overflow:hidden;border-radius: 15px;">
 
-            <figure class="image  is-relative " :class="row.ratio" style="overflow:hidden;border-radius: 3px;">
-              <NuxtPicture class="" sizes="lg:50vw md:50vw sm:100vw" :src="row.image" style="z-index:0" alt="" />
-            </figure>
-          </div>
-          <div class="px-4 py-5">
+            <video controls muted playsinline loop style="border-radius:15px">
+              <source :src="`/services/ugc/(${row}).webm`" class=""
+                style="object-fit: cover; height:100%; border-radius:15px" type="video/webm">
+            </video>
+          </figure>
 
-            <p class="   title  dela  is-size-4-desktop  is-size-5-touch has-text-weight-bold">
-              {{ row.client }}</p>
-            <p class="subtitle  is-size-5 is-size-6-touch mb-0 ">{{ row.work }}
-            </p>
-
-          </div>
 
         </div>
 

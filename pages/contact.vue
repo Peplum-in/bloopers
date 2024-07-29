@@ -2,73 +2,63 @@
     <div>
         <section class="section mb-0 pb-0">
             <div class="columns has-text-centered is-mobile is-centered">
-                <div class="column is-7-desktop is-8-tablet is-12-mobile ">
+                <div class="column is-7-desktop is-8-tablet is-12-mobile">
                     <h1 data-aos="fade-up" class="title is-size-1-desktop is-size-3-touch pt-6 dela">
-                        Let's start something <br>
+                        Let's start something <br />
                         completely new together.
                     </h1>
-                    <p class="has-text-weight-semibold is-size-5-desktop is-size-6-touch "> Drop us a line, and we'll
-                        get in touch.
-                        <br>
+                    <p class="has-text-weight-semibold is-size-5-desktop is-size-6-touch">
+                        Drop us a line, and we'll get in touch.
+                        <br />
                         We'll see if we're a match and how we can help each other.
                     </p>
-                    <br>
+                    <br />
                     <div class="buttons is-centered">
-
-                        <nuxt-link data-aos="fade-up" data-aos-delay="250" to="#send-brief"
+                        <a data-aos="fade-up" data-aos-delay="250" href="#send-brief"
                             class="button button-bloop-new is-size-5">
                             START A PROJECT
-                        </nuxt-link>
+                        </a>
                         <!-- <a data-aos="fade-up" data-aos-delay="250" to="#send-brief"
                             class="button button-bloop-new bloop-white is-size-5">
                             DM TO COLLABORATE
                     </a> -->
                     </div>
-                    <br>
-                    <br>
-                    <p class="has-text-weight-semibold is-size-6 "> REACH OUT AT </p>
-                    <div class=" columns py-6 is-multiline is-centered is-mobile">
+                    <br />
+                    <br />
+                    <p class="has-text-weight-semibold is-size-6">REACH OUT AT</p>
+                    <div class="columns py-6 is-multiline is-centered is-mobile">
                         <div class="column is-4-desktop is-10-mobile">
-
                             <div class="columns is-6-desktop is-mobile is-multiline is-size-10-touch">
-
-
                                 <a href="https://www.instagram.com/wearebloopers/" target="_blank" class="column is-4">
-                                    <div class="box-bloop-bento " style="">
-                                        <figure class="image is-1by1 ">
-
+                                    <div class="box-bloop-bento" style="">
+                                        <figure class="image is-1by1">
                                             <NuxtImg src="/contact/instagram.png" class="px-2 py-2 container" alt="" />
                                         </figure>
                                     </div>
                                 </a>
                                 <a href="https://www.linkedin.com/company/wearebloopers/" target="_blank"
                                     class="column is-4">
-                                    <div class="box-bloop-bento " style="">
-                                        <figure class="image is-1by1 ">
-
+                                    <div class="box-bloop-bento" style="">
+                                        <figure class="image is-1by1">
                                             <NuxtImg src="/contact/linkedin.png" class="px-2 py-2 container" alt="" />
                                         </figure>
                                     </div>
                                 </a>
 
                                 <a href="mailto:hello@wearebloopers.com" target="_blank" class="column is-4">
-                                    <div class="box-bloop-bento " style="">
-                                        <figure class="image is-1by1 ">
-
+                                    <div class="box-bloop-bento" style="">
+                                        <figure class="image is-1by1">
                                             <NuxtImg src="/contact/gmail.png" class="px-2 py-2 container" alt="" />
                                         </figure>
                                     </div>
                                 </a>
                                 <a href="https://www.instagram.com/wearebloopers/" target="_blank" class="column is-4">
-                                    <div class="box-bloop-bento " style="">
-                                        <figure class="image is-1by1 ">
-
+                                    <div class="box-bloop-bento" style="">
+                                        <figure class="image is-1by1">
                                             <NuxtImg src="/contact/call.png" class="px-2 py-2 container" alt="" />
                                         </figure>
                                     </div>
                                 </a>
-
-
                             </div>
                         </div>
                         <!-- <div class="columns is-mobile is-multiline">
@@ -76,14 +66,11 @@
                     </div>
                 </div>
             </div>
-
-
         </section>
 
         <div id="send-brief" class="section is-hidden-touch">
-
             <section class="box-bloop-bento-no py-6 px-6"
-                style="background-color: lightyellow; border-color:#ff000050;">
+                style="background-color: lightyellow; border-color: #ff000050">
                 <div class="columns is-vcentered is-varaible is-8" data-aos="fade-up">
                     <div class="column is-5">
                         <div>
@@ -91,15 +78,14 @@
                                 Reach out with your idea, and we'll help you build it.
                             </h1>
 
-                            <br>
-                            <br>
+                            <br />
+                            <br />
                             <p class="is-size-5-desktop is-size-6-touch">
-                                Add your project briefs so we have a better understanding of your requirements. We'll
-                                get back to you with a plan of action.
+                                Add your project briefs so we have a better understanding of your
+                                requirements. We'll get back to you with a plan of action.
                             </p>
 
-
-                            <div style="position: fix; height: 150px;"></div>
+                            <div style="position: fix; height: 150px"></div>
                             <div class="mt-6">
                                 <figure class="image is-128x128">
                                     <NuxtPicture src="/services/blooper-person.png" alt="" />
@@ -108,72 +94,70 @@
                                     Book a free discovery call.
                                 </p>
 
-                                <button class="button button-bloop-new">
-                                    BOOK A CALL
-                                </button>
-
+                                <button class="button button-bloop-new">BOOK A CALL</button>
                             </div>
                         </div>
-
                     </div>
                     <div class="column is-5-desktop is-12-touch is-offset-2-desktop">
-                        <form name="gform" class="" v-if="sent">
+                        <form name="gform" class="" data-email="hello@wearebloopers.com" v-if="!sent">
                             <div class="">
-
                                 <p class="heading is-size-5 has-text-weight-semibold dela">Name</p>
-                                <input name="name" type="text" placeholder="Please enter your name"
-                                    class="is-size-5 bloop-input">
+                                <input name="name" type="text" v-model="form.name" placeholder="Please enter your name"
+                                    class="is-size-5 bloop-input" />
                             </div>
                             <div class="mt-6">
-
                                 <p class="heading is-size-5 has-text-weight-semibold dela">Email*</p>
 
-                                <input name="email" type="email" placeholder="Please enter your e-mail"
-                                    class=" is-size-5 bloop-input">
+                                <input name="email" type="email" v-model="form.email"
+                                    placeholder="Please enter your e-mail" class="is-size-5 bloop-input" />
                             </div>
                             <div class="mt-6">
-
-                                <p class="heading is-size-5 has-text-weight-semibold dela">Whatsapp/Contact No.</p>
-                                <input name="contact" type="text" placeholder="Please enter your contact number"
-                                    class="is-size-5 bloop-input">
+                                <p class="heading is-size-5 has-text-weight-semibold dela">
+                                    Whatsapp/Contact No.
+                                </p>
+                                <input name="contact" type="text" v-model="form.contact"
+                                    placeholder="Please enter your contact number" class="is-size-5 bloop-input" />
                             </div>
                             <div class="mt-6">
-
-                                <p class="heading is-size-5 has-text-weight-semibold dela">Project Brief</p>
-                                <input name="message" type="textarea" placeholder="Please enter your requirements"
-                                    class=" is-size-5 bloop-input">
+                                <p class="heading is-size-5 has-text-weight-semibold dela">
+                                    Project Brief
+                                </p>
+                                <textarea v-model="form.message" name="message" type="textarea"
+                                    placeholder="Please enter your requirements" class="is-size-5 bloop-input" />
                             </div>
-
-                            <button @click.prevent="myHandler()" class="mt-6 button button-bloop-new">
-                                SUBMIT </button>
+                            <p class="mt-4 has-text-secondary box-bloop  has-background-warning-light p-2 px-3 has-text-weight-semibold is-size-5"
+                                style="border-radius: 8px;" v-if="Object.keys(errors).length != 0">
+                                ⚠️ Please fill in all the fields.
+                            </p>
+                            <button v-if="!sending" @click.prevent="myHandler()" class="mt-4 button button-bloop-new">
+                                SUBMIT
+                            </button>
+                            <button v-if="sending" disabled class="mt-4 button button-bloop-new">
+                                PLEASE WAIT ...
+                            </button>
                         </form>
                         <div v-else class="">
-                            <figure class="image container" data-aos="zoom-in" style="width: 100px;">
-                                <NuxtImg src="/ui/confetti.png" class=" container" alt="" />
+                            <figure class="image container" data-aos="zoom-in" style="width: 100px">
+                                <NuxtImg src="/ui/confetti.png" class="container" alt="" />
                             </figure>
-                            <p class="title has-text-centered mt-3" data-aos="fade-in">We've received your message. <br>
-                                we'll reach out to you shortly.
-                                <br>
-                                <br>
-                                Psst. <br> We are always up for a chai meet!
+                            <p class="title has-text-weight-normal has-text-centered mt-3" data-aos="fade-in">
+                                <span class="dela has-text-weight-semibold">
+                                    Thank you for your message.
+                                </span>
+                                <br />
+                                We'll reach out to you shortly.
+                                <br />
+                                <br />
+                                Psst. <br />
+                                We are always up for a chai meet!
                             </p>
                         </div>
-
-
-
                     </div>
-
-
                 </div>
-
-
-
             </section>
         </div>
-        <div id="send-brief" class=" is-hidden-desktop"
-            style=" border-top:1px solid #dbdbdb;   background-color: #f9f8f6;">
-
-            <section class=" section" style="background-color: lightyellow; border-color:#ff000050;">
+        <div id="send-brief" class="is-hidden-desktop" style="border-top: 1px solid #dbdbdb; background-color: #f9f8f6">
+            <section class="section" style="background-color: lightyellow; border-color: #ff000050">
                 <div class="columns is-vcentered is-varaible is-8" data-aos="fade-up">
                     <div class="column is-5">
                         <div>
@@ -181,89 +165,77 @@
                                 Reach out with your idea, and we'll help you build it.
                             </h1>
 
-
                             <p class="is-size-5-desktop is-size-6-touch">
-                                Add your project briefs so we have a better understanding of your requirements. We'll
-                                get back to you with a plan of action.
+                                Add your project briefs so we have a better understanding of your
+                                requirements. We'll get back to you with a plan of action.
                             </p>
-
-
                         </div>
-
                     </div>
-                    <br>
+                    <br />
                     <div class="column is-5-desktop is-12-touch is-offset-2-desktop">
-                    
-                        <form name="gform" class="" v-if="!sent">
+                        <form name="gform" data-email="hello@wearebloopers.com" class="" v-if="!sent">
                             <div class="">
-
                                 <p class="heading is-size-5 has-text-weight-semibold dela">Name</p>
                                 <input name="name" type="text" v-model="form.name" placeholder="Please enter your name"
-                                    class="is-size-5 bloop-input">
+                                    class="is-size-5 bloop-input" />
                             </div>
                             <div class="mt-6">
-
                                 <p class="heading is-size-5 has-text-weight-semibold dela">Email*</p>
 
                                 <input name="email" type="email" v-model="form.email"
-                                    placeholder="Please enter your e-mail" class=" is-size-5 bloop-input">
+                                    placeholder="Please enter your e-mail" class="is-size-5 bloop-input" />
                             </div>
                             <div class="mt-6">
-
-                                <p class="heading is-size-5 has-text-weight-semibold dela">Whatsapp/Contact No.</p>
+                                <p class="heading is-size-5 has-text-weight-semibold dela">
+                                    Whatsapp/Contact No.
+                                </p>
                                 <input name="contact" type="text" v-model="form.contact"
-                                    placeholder="Please enter your contact number" class="is-size-5 bloop-input">
+                                    placeholder="Please enter your contact number" class="is-size-5 bloop-input" />
                             </div>
                             <div class="mt-6">
-
-                                <p class="heading is-size-5 has-text-weight-semibold dela">Project Brief</p>
+                                <p class="heading is-size-5 has-text-weight-semibold dela">
+                                    Project Brief
+                                </p>
                                 <input name="message" type="textarea" v-model="form.message"
-                                    placeholder="Please enter your requirements" class=" is-size-5 bloop-input">
+                                    placeholder="Please enter your requirements" class="is-size-5 bloop-input" />
                             </div>
-
+                            <p class="mt-4 has-text-secondary box-bloop  has-background-warning-light p-2 px-3 has-text-weight-semibold is-size-5"
+                                style="border-radius: 8px;" v-if="Object.keys(errors).length != 0">
+                                ⚠️ Please fill in all the fields.
+                            </p>
                             <button v-if="!sending" @click.prevent="myHandler()" class="mt-6 button button-bloop-new">
-                                SUBMIT </button> 
-                            <button v-if="sending" @click.prevent="myHandler()" class="mt-6 button button-bloop-new">
-                                PLEASE WAIT ... </button> 
-
+                                SUBMIT
+                            </button>
+                            <button v-if="sending" disabled class="mt-6 button button-bloop-new">
+                                PLEASE WAIT ...
+                            </button>
                         </form>
 
                         <div v-else class="" data-aos="fade-in">
                             <!-- <hr class="has-background-dark"> -->
 
-                            <figure class="image " data-aos="zoom-in" style="width: 100px;">
-                                <NuxtImg src="/ui/confetti.png" class=" container" alt="" />
+                            <figure class="image" data-aos="zoom-in" style="width: 100px">
+                                <NuxtImg src="/ui/confetti.png" class="container" alt="" />
                             </figure>
-                            <p class=" is-size-5-touch   mt-3" data-aos="fade-in">We've
-                                received your message. <br>
-                                we'll reach out to you shortly.
-                                <br>
-                                <strong>
-                                Psst.
-                                </strong>
-                                 We are always up for a chai meet!
+                            <p class="is-size-5-touch mt-3" data-aos="fade-in">
+                                <span class="dela has-text-weight-semibold">
+                                    Thank you for your message.
+                                </span>
+                                <br />
+                                We'll reach out to you shortly.
+                                <br />
+                                <strong> Psst. </strong>
+                                We are always up for a chai meet!
                             </p>
                         </div>
                     </div>
-
-
-
-
-
-
                 </div>
-
-
-
             </section>
         </div>
-
-
     </div>
 </template>
 
 <script>
-
 export default {
     data() {
         return {
@@ -281,8 +253,9 @@ export default {
     },
     methods: {
         myHandler() {
+            // this.sending = true;
             var url =
-                "https://script.google.com/macros/s/AKfycbwnXguG0Z46Zt9m6G9AxNWoJaJd7kiq5Xt_-FcdsHmQ24J0NKs7siOi0LgTyQ4gp3djVQ/exec"// Check Data
+            "https://script.google.com/macros/s/AKfycbwnXguG0Z46Zt9m6G9AxNWoJaJd7kiq5Xt_-FcdsHmQ24J0NKs7siOi0LgTyQ4gp3djVQ/exec"; // Check Data
             this.errors = {};
             Object.keys(this.form).forEach((item) => {
                 if (!this.form[item]) {
@@ -312,8 +285,7 @@ export default {
             }
         },
     },
-
-}
+};
 </script>
 <style>
 .bloop-sec {
@@ -338,7 +310,6 @@ export default {
     background-color: #fff000;
 }
 
-
 .bloop-check {
     border: 2px solid #0a0a0a;
     /* border-left:5px solid #0a0a0a; */
@@ -351,14 +322,12 @@ export default {
 }
 
 .check-yes {
-
     color: white !important;
     /* cursor: url('/assets/icons/cross-sec.svg'), auto !important; */
     background-color: #0a0a0a;
 }
 
 .check-yes p {
-
     color: white !important;
     /* cursor: url('/assets/icons/cross-sec.svg'), auto !important;
     background-color: blue; */

@@ -121,12 +121,7 @@
     const final = z + x[1]
     return final
   }
-  
-  // const { data: navigation } = await useAsyncData('navigation', () => queryContent('/nav').only(['title', 'link_text']).find());
-  
-  // const { data: posts } = await useAsyncData('work', () => queryContent('/work').find())
-  
-  
+ 
   </script>
     
   
