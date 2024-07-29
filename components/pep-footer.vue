@@ -7,12 +7,12 @@
     <section class="section  ">
     <nuxt-link to="/">
       <figure class="image is-hidden-touch" data-aos="zoom-in">
-        <NuxtImg format="webp" src="/bloopers-black-new.svg" class="container " style="width:350px" alt="" />
+        <NuxtImg  src="/bloopers-black-new.svg" class="container " style="width:350px" alt="" />
       </figure>
     </nuxt-link>
     <nuxt-link to="/">
       <figure class="image is-hidden-desktop" data-aos="zoom-in">
-        <NuxtImg format="webp" src="/bloopers-black-new.svg" class="container " style="width:250px" alt="" />
+        <NuxtImg  src="/bloopers-black-new.svg" class="container " style="width:250px" alt="" />
       </figure>
     </nuxt-link>
       <p class="heading has-text-black has-text-centered is-size-6 has-text-grey mt-5" data-aos="fade-up">JAIPUR - INDIA

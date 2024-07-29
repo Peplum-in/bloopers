@@ -24,7 +24,7 @@
       <div class="columns is-mobile is-variable is-1 mb-0 is-multiline is-grouped">
         <div v-for="(row, index) in 20" :key="index" class="column is-3-desktop is-6-touch is-relative"
           data-aos="zoom-in" :class="row.col">
-          <figure class="image has-background-grey-light is-9by16" style="overflow:hidden;border-radius: 15px;">
+          <figure class="image has-background-grey-lighter is-9by16" style="overflow:hidden;border-radius: 15px;">
 
             <video controls muted playsinline loop style="border-radius:15px">
               <source :src="`/services/ugc/(${row}).webm`" class=""
