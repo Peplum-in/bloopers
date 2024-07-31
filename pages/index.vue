@@ -1,22 +1,26 @@
 <template>
     <div>
         <section class="section px-0 has-background-yellow-gradient hero is-fullpage-with-navbar">
-            <div class="columns is-hidden-mobile is-variable is-8 mt-1 is-vcentered">
+            <div class="columns section is-hidden-mobile is-variable is-8 mt-1 is-centered is-vcentered">
                 <div class="column container section is-6-desktop is-12-mobile">
                     <h1 data-aos="fade-up" data-aos-delay="100"
                         class="has-text-centered-touch title dela is-size-1-desktop is-size-4-touch"
                         style="font-weight: 200!">
-                        People call us an agency, production studio, content creators, nut heads and
-                        literally whatever. As long as we can help. <br />
+                        We humanize brands
                     </h1>
+                    <h2 data-aos="fade-up" data-aos-delay="100"
+                        class="has-text-centered-touch subtitle dela is-size-3-desktop is-size-4-touch"
+                        style="font-weight: 200!">
+                        No fluff, no guesswork - just results
+                    </h2>
                     <nuxt-link data-aos="fade-up" to="/services" data-aos-delay="150"
                         class="button button-bloop-new has-text-black has-text-weight-bold is-clickable">
-                        HERE'S HOW WE CAN HELP
+                        SHOW ME HOW
                     </nuxt-link>
                 </div>
-                <div class="column is-6-desktop">
+                <div class="column is-offset-1-desktop is-5-desktop">
                     <div class="hero-grid-container">
-                        <figure class="Hero-Reel video is-16by9" data-aos="zoom-in" data-aos-delay="100">
+                        <figure class="Hero-Reel video is-9by16" data-aos="zoom-in" data-aos-delay="100">
                             <video autoPlay muted loop playsinline style="border-radius: 15px">
                                 <source src="/bloopers-reel.webm" class="" style="border-radius: 15px"
                                     type="video/mp4" />
@@ -86,13 +90,27 @@
                         </div>
                     </div>
                 </div>
-                <div class="column container section is-6-desktop is-12-mobile">
+                <div class="column container section has-text-centered is-6-desktop is-12-mobile">
                     <h1 data-aos="fade-up" data-aos-delay="100"
+                        class="has-text-centered-touch title dela is-size-1-desktop is-size-4-touch"
+                        style="font-weight: 200!">
+                        We humanize brands
+                    </h1>
+                    <h2 data-aos="fade-up" data-aos-delay="100"
+                        class="has-text-centered-touch subtitle dela is-size-3-desktop is-size-4-touch"
+                        style="font-weight: 200!">
+                        No fluff, no guesswork - just results
+                    </h2>
+                    <nuxt-link data-aos="fade-up" to="/services" data-aos-delay="150"
+                        class="button button-bloop-new  has-text-black has-text-weight-bold is-clickable">
+                        SHOW ME HOW
+                    </nuxt-link>
+                    <!-- <h1 data-aos="fade-up" data-aos-delay="100"
                         class="has-text-centered-touch title dela is-size-1-desktop is-size-4-touch"
                         style="font-weight: 200!">
                         People call us a branding agency, creative studio, developers, nut heads and
                         literally whatever. As long as we can help. <br />
-                    </h1>
+                    </h1> -->
                 </div>
             </div>
         </section>
@@ -100,8 +118,7 @@
         <section class="work-list mt-6">
             <!-- <tape/> -->
             <div class="section">
-                <p class="has-text-weight-semibold is-size-3-desktop has-text-centered is-size-5-touch dela"
-                    data-aos="fade-up">
+                <p class="title is-size-2-desktop has-text-centered is-size-4-touch dela" data-aos="fade-up">
                     Featured Work
                 </p>
                 <br />
@@ -110,7 +127,7 @@
                         class="column is-clickable work-card-wrapper is-4-desktop is-relative" data-aos="zoom-in">
                         <div class="work-card">
                             <figure class="image is-relative is-5by4" style="overflow: hidden; border-radius: 3px">
-                                <NuxtPicture placeholder sizes="lg:50vw md:50vw sm:100vw" src="/work/gems/4.png"
+                                <NuxtPicture placeholder sizes="lg:50vw md:50vw sm:100vw" src="/work/gems/indexhero.png"
                                     style="z-index: 0" alt="" />
                             </figure>
                         </div>
@@ -122,7 +139,7 @@
                                 Rebranding a 200yr old legacy
                             </p>
                             <p class="is-size-6 mt-2 has-text-grey">
-                                Branding, Creative Shoots, Social Media, Marketing
+                                Branding & Strategy, Creative Shoots, Social Media, Marketing
                             </p>
                         </div>
                     </nuxt-link>
@@ -141,9 +158,28 @@
                             <p class="subtitle is-size-5 is-size-6-touch mb-0">
                                 Building social presence for a Handicraft D2C brand.
                             </p>
-                            <p class="is-size-6 mt-2 has-text-grey">Social Media, Creative Shoots</p>
+                            <p class="is-size-6 mt-2 has-text-grey">Influencer Marketing, Creative Shoots, Brand
+                                Positing</p>
                         </div>
                     </nuxt-link>
+                    <div class="column is-clickable work-card-wrapper is-4-desktop is-relative" data-aos="zoom-in">
+                        <div class="work-card">
+                            <figure class="image is-relative is-5by4" style="overflow: hidden; border-radius: 20px">
+                                <NuxtPicture placeholder sizes="md:50vw sm:100vw" src="/work/knot/hero.png"
+                                    style="z-index: 0" alt="" />
+                            </figure>
+                        </div>
+                        <div class="px-4 py-5">
+                            <p class="title dela is-size-4-desktop is-size-5-touch has-text-weight-bold">
+                                The Knot Company <span
+                                    class="tag has-background-light is-rounded heading has-text-size-6">SOON</span>
+                            </p>
+                            <p class="subtitle is-size-5 is-size-6-touch mb-0">
+                                Positioning a new gifting brand, as ‘knot’ just another brand.
+                            </p>
+                            <p class="is-size-6 mt-2 has-text-grey"> Brand Strategy & Positioning, Creative Shoots</p>
+                        </div>
+                    </div>
                     <!-- <div 
                         class="column is-clickable  work-card-wrapper  is-4-desktop is-relative" data-aos="zoom-in">
                         <div class="work-card ">
@@ -167,20 +203,21 @@
                     </div> -->
                 </div>
                 <div class="has-text-centered">
-                    <nuxt-link to="/work" class="button button-bloop-new">VIEW ALL WORKS</nuxt-link>
+                    <nuxt-link to="/work" class="button button-bloop-new">SHOW MORE</nuxt-link>
                 </div>
             </div>
         </section>
-        <div class="section">
-            <section class="py-6 has-background-white" style="">
-                <p class="has-text-weight-semibold has-text-centered is-size-5-desktop is-size-6-touch">
+        <hr class="mb-0">
+        <div class="section is-hidden-touch" style="background-color: #ffffe0;">
+            <section class="pb-6 pt-3 " style="">
+                <!-- <p class="has-text-weight-semibold has-text-centered is-size-5-desktop is-size-6-touch">
                     SERVICES
-                </p>
+                </p> -->
                 <h1 class="title is-size-2-desktop has-text-centered is-size-4-touch dela">
-                    Here's some of the ways we can help you with
+                    Launch, Steer or Reboot <br> your brand with us.
                 </h1>
-
-                <div class="fixed-grid has-4-cols has-4-rows pt-4">
+                <br />
+                <div class="fixed-grid has-4-cols has-4-rows">
                     <div class="grid">
                         <NuxtLink to="/services/branding"
                             class="cell is-col-span-1-desktop is-col-span-1-fullhd is-col-span-4-mobile is-col-span-2-tablet box-bloop-bento-section"
@@ -272,6 +309,174 @@
                 </div>
             </section>
         </div>
+        <div class="is-hidden-desktop" style="background-color: #ffffe0;">
+            <section class="pb-6 pt-6 " style="">
+                <!-- <p class="has-text-weight-semibold has-text-centered is-size-5-desktop is-size-6-touch">
+                    SERVICES
+                </p> -->
+                <h1 class="title is-size-2-desktop has-text-centered is-size-4-touch dela">
+                    Launch, Steer or Reboot <br> your brand with us.
+                </h1>
+                <br />
+                <div class="fixed-grid has-4-cols has-4-rows">
+                    <div class="grid ">
+                        <NuxtLink to="/services/branding"
+                            class="cell is-col-span-1-desktop my-4 is-col-span-1-fullhd is-col-span-4-mobile is-col-span-2-tablet box-bloop-bento-section"
+                            data-aos="zoom-in">
+                            <div class="">
+
+                                <figure class="image is-1by1">
+                                    <div class="img-stack-open">
+                                        <NuxtPicture placeholder src="/ui/services-hero/branding.jpg" alt="" />
+                                    </div>
+                                    <div class="img-stack-2-open"></div>
+                                </figure>
+                                <div class="media px-5">
+                                    <div class="media-content">
+                                        <div class=" ">
+                                            <h2 class=" pb-0 title is-size-5-touch is-size-3-desktop">
+                                                Branding & Strategy
+                                            </h2>
+                                            <p class="pb-5 pt-2 subtitle is-size-5-desktop is-size-6-touch">
+                                                Take your branding to the next level. With strategies that will help
+                                                your brand scale.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                    <div class="media-right ml-0">
+                                        <button class="button-bloop-new-rounded mr-2" style="scale:1">
+                                            <figure class="image is-16x16">
+                                                <img src="/ui/right.svg" style="rotate: -45deg;" alt="">
+                                            </figure>
+                                        </button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </NuxtLink>
+                        <NuxtLink to="/services/creative_styling"
+                            class="cell is-col-span-1-desktop my-4 is-col-span-1-fullhd is-col-span-4-mobile is-col-span-2-tablet box-bloop-bento-section"
+                            data-aos="zoom-in">
+                            <div class="">
+
+                                <figure class="image is-1by1">
+                                    <div class="img-stack-open">
+                                        <NuxtPicture placeholder src="/ui/services-hero/creative.jpg" alt="" />
+                                    </div>
+                                    <div class="img-stack-2-open" style="rotate: -115deg; scale:0.75"></div>
+                                </figure>
+                                <div class="media px-5">
+                                    <div class="media-content">
+                                        <div class=" ">
+                                            <h2 class=" pb-0 title is-size-5-touch is-size-3-desktop">
+                                                Creative Direction & Styling
+                                            </h2>
+                                            <p class="pb-5 pt-2 subtitle is-size-5-desktop is-size-6-touch">
+                                                Take your wildest ideas and transform them into jaw-dropping realities.
+                                                From concept to execution, we're the architects of imagination.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                    <div class="media-right ml-0">
+                                        <button class="button-bloop-new-rounded mr-2" style="scale:1">
+                                            <figure class="image is-16x16">
+                                                <img src="/ui/right.svg" style="rotate: -45deg;" alt="">
+                                            </figure>
+                                        </button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </NuxtLink>
+                        <NuxtLink to="/services/social_media_presence"
+                            class="cell is-col-span-1-desktop my-4 is-col-span-1-fullhd is-col-span-4-mobile is-col-span-2-tablet box-bloop-bento-section"
+                            data-aos="zoom-in">
+                            <div class="">
+
+                                <figure class="image is-1by1">
+                                    <div class="img-stack-open">
+                                        <NuxtPicture placeholder src="/ui/services-hero/social.jpg" alt="" />
+                                    </div>
+                                    <div class="img-stack-2-open has-background-primary-light"
+                                        style="rotate: -20deg; scale:0.8"></div>
+                                </figure>
+                                <div class="media px-5">
+                                    <div class="media-content">
+                                        <div class=" ">
+                                            <h2 class=" pb-0 title is-size-5-touch is-size-3-desktop">
+                                                Social Media & Mangement
+                                            </h2>
+                                            <p class="pb-5 pt-2 subtitle is-size-5-desktop is-size-6-touch">
+                                                Our content strategists are the puppet masters of words and visuals,
+                                                weaving stories that make hearts skip a beat.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                    <div class="media-right ml-0">
+                                        <button class="button-bloop-new-rounded mr-2" style="scale:1">
+                                            <figure class="image is-16x16">
+                                                <img src="/ui/right.svg" style="rotate: -45deg;" alt="">
+                                            </figure>
+                                        </button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </NuxtLink>
+                        <NuxtLink to="/services/ugc_influencers_collaborations"
+                            class="cell is-col-span-1-desktop my-4 is-col-span-1-fullhd is-col-span-4-mobile is-col-span-2-tablet box-bloop-bento-section"
+                            data-aos="zoom-in">
+                            <div class="">
+
+                                <figure class="image is-1by1">
+                                    <div class="img-stack-open">
+                                        <NuxtPicture placeholder src="/ui/services-hero/influencer.jpg" alt="" />
+                                    </div>
+                                    <div class="img-stack-2-open"></div>
+                                </figure>
+                                <div class="media px-5">
+                                    <div class="media-content">
+                                        <div class=" ">
+                                            <h2 class=" pb-0 title is-size-5-touch is-size-3-desktop">
+                                                UGC, Influencers & Collaborations
+                                            </h2>
+                                            <p class="pb-5 pt-2 subtitle is-size-5-desktop is-size-6-touch">
+                                                From captivating campaigns to media magic, we'll put your brand in the
+                                                spotlight it deserves.
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                    <div class="media-right ml-0">
+                                        <button class="button-bloop-new-rounded mr-2" style="scale:1">
+                                            <figure class="image is-16x16">
+                                                <img src="/ui/right.svg" style="rotate: -45deg;" alt="">
+                                            </figure>
+                                        </button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </NuxtLink>
+
+
+
+
+                    </div>
+                </div>
+
+                <div class="has-text-centered">
+                    <nuxt-link to="/services" class="button button-bloop-new">ALL SERVICES & PROCESS</nuxt-link>
+                </div>
+            </section>
+        </div>
         <section class="section my-0 mt-6 pb-0">
             <h3 class="is-size-2-desktop is-size-4-touch dela has-text-centered title has-text-weight-bold"
                 data-aos="fade-up">
@@ -294,9 +499,9 @@
                 </div>
             </div>
         </div>
-       
-       <TestimonialStack/>
-     
+
+        <TestimonialStack />
+
 
         <audit class="mt-6" />
     </div>
@@ -710,32 +915,47 @@ const brands = [
     /* background-color: #fff00040; */
     border-radius: 15px;
     cursor: pointer;
-    background-color: white;
-    border: 1px solid #dbdbdb;
+    /* background-color: #f9f8f1; */
+    /* border: 1px solid #dbdbdb; */
     transition: 0.3s all ease;
     /* transition: 0.2s all ease-in-out; */
+    /* margin:1rem; */
 }
 
 .box-bloop-bento-section:hover {
-    background-color: #fff000;
+    /* background-color: #fff000; */
     border-radius: 15px;
     cursor: pointer;
     /* border: 1px solid #dbdbdb; */
 }
 
-.box-bloop-bento-section img {
+.box-bloop-bento-section .img-stack img {
     transition: 0.2s all ease-in-out;
     /* border: 3px inset yellow; */
     /* padding:10px; */
     z-index: 2;
+    scale: 0.9;
+    /* margin:1rem; */
     border: 13px solid #fff !important;
     background-color: white;
     border-radius: 25px;
-    /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.1);
 }
 
-.box-bloop-bento-section:hover img {
+.box-bloop-bento-section:hover .img-stack img {
+    scale: 0.8;
+    /* transform: rotateX(30deg); */
+    transform: rotate(3deg);
+    z-index: 2;
+    /* border: 15px solid black; */
+    border: 14px solid #fff !important;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 15px 4px rgba(0, 0, 0, 0.1);
+}
+
+.img-stack-open img {
     scale: 0.8;
     /* transform: rotateX(30deg); */
     transform: rotate(3deg);
@@ -751,7 +971,7 @@ const brands = [
     background: #dbdbdb;
     width: 100%;
     height: 100%;
-    /* scale: 0.8; */
+    scale: 0.5;
     z-index: 1;
 
     /* transform: rotateX(30deg); */
@@ -763,6 +983,23 @@ const brands = [
     transition: 0.2s all ease-in-out;
     /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 2px 15px 3px rgba(0, 0, 0, 0.1); */
+}
+
+.img-stack-2-open {
+    background: #dbdbdb;
+    width: 100%;
+    height: 100%;
+    scale: 0.8;
+    z-index: 1;
+
+    /* transform: rotateX(30deg); */
+    transform: rotate(12deg);
+
+    /* border: 15px solid black; */
+    border: 14px solid #fff !important;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 15px 3px rgba(0, 0, 0, 0.1);
 }
 
 .box-bloop-bento-section:hover .img-stack-2 {

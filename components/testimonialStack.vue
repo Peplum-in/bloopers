@@ -20,7 +20,7 @@
                         style="border:1px solid #dbdbdb;">
 
 
-                        <p class=" pb-0 title has-text-weight-semibold is-size-5-touch is-size--desktop">
+                        <p class=" mb-5 subtitle has-text-weight-medium is-size-5-touch is-size-4-desktop">
                             "{{ testimonials[currentTestimonial].quote }}"
                         </p>
                         <div class="is-flex is-justify-content-space-between	 is-align-items-center">
@@ -45,8 +45,12 @@
 
                                 <div class="ml-4">
 
-                                    <p class="title dela is-size-4-desktop is-size-6-touch">
-                                        {{ testimonials[currentTestimonial].author }}
+                                    <p class=" dela has-text-weight-semibold mb-0 pb-0  is-size-4-desktop is-size-6-touch">
+                                        {{ testimonials[currentTestimonial].author }} <br> 
+                                    </p>
+                                    <p class="subtitle is-size-6-desktop">
+
+                                        Jaipur
                                     </p>
 
                                 </div>
@@ -68,7 +72,7 @@
 
 
                     </div>
-                    <div class="is-hidden-desktop box-bloop has-shadow has-background-white p-4 " data-aos="zoom-in"
+                    <div class="is-hidden-desktop box-bloop has-shadow has-background-white p-5 " data-aos="zoom-in"
                         style="border:1px solid #dbdbdb; border-radius:20px;">
 
 
@@ -142,7 +146,8 @@ export default {
                 {
                     quote:
                         "I have referred Bloopers to anyone who asks for an all rounder creative powerhouse. I’ve always felt we were more than just a client, but true partners.",
-                    author: "Anuvas",
+                    author: "Vandana Tyagi",
+                    role: "Founder, Anuvas",
                     image: "/brands/anuvas.jpg",
                 },
                 {

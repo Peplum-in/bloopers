@@ -14,13 +14,13 @@
           </div>
         </div>
 
-        <div class="columns is-variable is-0 mb-0 mt-6 ">
+        <div class="columns is-variable is-multiline is-0 mb-0 mt-6 ">
           <nuxt-link to="/work/gems-paradise" class="column is-clickable   work-card-wrapper   is-4-desktop is-relative"
             data-aos="zoom-in">
             <div class="work-card ">
 
               <figure class="image  is-relative is-5by4" style="overflow:hidden;border-radius: 3px;">
-                <NuxtPicture class="" src="/work/gems/4.png" style="z-index:0" alt="" />
+                <NuxtPicture class="" src="/work/gems/indexhero.png" style="z-index:0" alt="" />
               </figure>
             </div>
             <div class="px-4 py-5">
@@ -56,11 +56,26 @@
 
 
           </nuxt-link>
-          <nuxt-link to="/services" class="column is-clickable  work-card-wrapper  is-4-desktop is-relative"
+          <div class="column is-clickable work-card-wrapper is-4-desktop is-relative" data-aos="zoom-in">
+            <div class="work-card">
+              <figure class="image is-relative is-5by4" style="overflow: hidden; border-radius: 20px">
+                <NuxtPicture placeholder sizes="md:50vw sm:100vw" src="/work/knot/hero.png" style="z-index: 0" alt="" />
+              </figure>
+            </div>
+            <div class="px-4 py-5">
+              <p class="title dela is-size-4-desktop is-size-5-touch has-text-weight-bold">
+                The Knot Company <span class="tag has-background-light is-rounded heading has-text-size-6">SOON</span>
+              </p>
+              <p class="subtitle is-size-5 is-size-6-touch mb-0">
+                Positioning a new gifting brand, as ‘knot’ just another brand.
+              </p>
+              <p class="is-size-6 mt-2 has-text-grey"> Brand Strategy & Positioning, Creative Shoots</p>
+            </div>
+          </div>
+          <!-- <nuxt-link to="/services" class="column is-clickable  work-card-wrapper  is-4-desktop is-relative"
             data-aos="zoom-in">
             <div class="work-card ">
               <figure class="image is-relative is-5by4 " style="overflow:hidden;border-radius: 20px;">
-                <!-- <NuxtPicture class=""  style="z-index:0" alt="" /> -->
               </figure>
 
             </div>
@@ -74,7 +89,7 @@
             </div>
 
 
-          </nuxt-link>
+          </nuxt-link> -->
 
         </div>
 
